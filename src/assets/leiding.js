@@ -1,4 +1,4 @@
-import maartenVermeirenImage from "./images/leiding/maartenvermeiren.avif";
+import maartenVermeirenImage from "./images/leiding/MaartenVermeiren.avif";
 import gijsVanDenBerghImage from "./images/leiding/GijsVanDenBergh.avif";
 import seppeJanssenImage from "./images/leiding/SeppeJanssen.avif";
 import elienVermeirenImage from "./images/leiding/ElienVermeiren.avif";
