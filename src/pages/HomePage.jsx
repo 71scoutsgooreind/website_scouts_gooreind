@@ -34,7 +34,7 @@ export default function HomePage() {
               <img
                 src={s.img}
                 alt={s.name}
-                className="max-h-full max-w-full object-contain"
+                className="min-w-0 max-h-full max-w-full object-contain"
               />
             </div>
           ))}

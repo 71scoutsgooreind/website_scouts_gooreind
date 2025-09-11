@@ -55,7 +55,7 @@ export const verhuurData = {
   calendar: {
     title: "Verhuur Kalender",
     embedUrl:
-      "https://calendar.google.com/calendar/embed?src=71scoutsgooreind%40gmail.com&ctz=Europe%2FBrussels",
+      "https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBrussels&showPrint=0&showTitle=0&showTabs=0&showCalendars=0&showTz=0&src=NzFzY291dHNnb29yZWluZEBnbWFpbC5jb20&src=MmZkbWY3bzdpMW1iMGtza3R1cGk1N2M0NTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23d50000&color=%233f51b5"
   },
   form: {
     title: "Contacteer ons voor verhuur",
