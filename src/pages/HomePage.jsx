@@ -3,7 +3,7 @@ import React from "react";
 import { sponsors } from "../assets/sponsors";
 import flyerPdf from "../assets/pdfs/flyer sponsoring scouts.pdf";
 import trooperImage from "../assets/images/algemeen/Trooper.avif";
-import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpg";
+import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
 
 export default function HomePage() {
   return (
