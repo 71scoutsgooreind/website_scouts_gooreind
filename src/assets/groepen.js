@@ -1,8 +1,8 @@
-import kapoenenImage from "./images/groepen/kapoenen.JPG";
-import welkasImage from "./images/groepen/welkas.JPG";
-import wolvenImage from "./images/groepen/wolven.JPG";
+import kapoenenImage from "./images/groepen/kapoenen.jpg";
+import welkasImage from "./images/groepen/welkas.jpg";
+import wolvenImage from "./images/groepen/wolven.jpg";
 import jonggiversImage from "./images/groepen/jonggivers.jpg";
-import giversImage from "./images/groepen/givers.JPG";
+import giversImage from "./images/groepen/givers.jpg";
 import jinsImage from "./images/groepen/jins.png";
 
 export const groepenData = [
