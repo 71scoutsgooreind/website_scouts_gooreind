@@ -16,7 +16,7 @@ import thomasCuypersImage from "./images/leiding/ThomasCuypers.avif";
 import hannesVanhooydonckImage from "./images/leiding/HannesVanhooydonck.avif";
 import jasperVanBrechtImage from "./images/leiding/JasperVanBrecht.avif";
 import kobeVanLooverenImage from "./images/leiding/KobeVanLooveren.avif";
-import louisJanssensImage from "./images/leiding/LouisJanssens.avif";
+import louisJanssenImage from "./images/leiding/LouisJanssen.avif";
 import eliaSipsImage from "./images/leiding/EliaSips.avif";
 export const leidingData = [
   {
@@ -234,7 +234,7 @@ export const leidingData = [
         {
            name: "Louis Janssen",
             scoutsName: "Luchthartige Streepmuis",
-            image: louisJanssensImage,
+            image: louisJanssenImage,
             details: ["bar-team", "bedanking vrijwilligers","leider welka's", "0485 30 32 27", "louisjanssen@gmail.com"],
 },
     ]
