@@ -138,18 +138,19 @@ export const leidingData = [
   {
     title: "Jonggiverleiding",
     members: [
+       {
+                   name: "Elien Vermeiren",
+            scoutsName: "Krachtige Torenvalk",
+            image: elienVermeirenImage,
+            details: ["verantwoordelijke opening nieuw lokaal", "takleidster Jonggivers", "0477 28 95 23", "elienvermeiren@hotmail.be"],
+},
         {
            name: "Gijs Van den Bergh",
             scoutsName: "Werklustige Bever",
             image: gijsVanDenBerghImage,
             details: ["Groepleider", "Leider Jonggivers", "0471 49 48 44", "vandenberghgijs1@gmail.com"],
  },
-        {
-                   name: "Elien Vermeiren",
-            scoutsName: "Krachtige Torenvalk",
-            image: elienVermeirenImage,
-            details: ["verantwoordelijke opening nieuw lokaal", "Leidster Jonggivers", "0477 28 95 23", "elienvermeiren@hotmail.be"],
-},
+       
         {
             name: "Simon Braem",
             scoutsName: "Gedreven Hert",
@@ -197,7 +198,7 @@ export const leidingData = [
            name: "Kobe Francken",
             scoutsName: "Bereidwillige Steppelemming",
             image: null,
-            details: ["milieu verantwoordelijke", "verhuur", "0467 01 78 67", "kobefrancken@telenet.be"],
+            details: ["milieu verantwoordelijke", "verhuur","Leider wolven", "0467 01 78 67", "kobefrancken@telenet.be"],
  },
     ]
   },
@@ -234,7 +235,7 @@ export const leidingData = [
            name: "Louis Janssen",
             scoutsName: "Luchthartige Streepmuis",
             image: louisJanssensImage,
-            details: ["bar-team", "bedanking vrijwilligers", "0485 30 32 27", "louisjanssen@gmail.com"],
+            details: ["bar-team", "bedanking vrijwilligers","leider welka's", "0485 30 32 27", "louisjanssen@gmail.com"],
 },
     ]
   },
