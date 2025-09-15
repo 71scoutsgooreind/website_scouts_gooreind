@@ -130,7 +130,7 @@ export const leidingData = [
              name: "Sander Verheyden",
             scoutsName: "Leergierig Zeepaard",
             image: null,
-            details: ["Verantwoordelijke Container", "Verantwoordelijke daguitstap, "Leider Givers", "0468 56 82 79", "sander.verheyden@telenet.be"],
+            details: ["Verantwoordelijke Container", "Verantwoordelijke daguitstap", "Leider Givers", "0468 56 82 79", "sander.verheyden@telenet.be"],
  },
       
     ]
