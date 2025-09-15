@@ -17,6 +17,7 @@ import hannesVanhooydonckImage from "./images/leiding/HannesVanhooydonck.avif";
 import jasperVanBrechtImage from "./images/leiding/JasperVanBrecht.avif";
 import kobeVanLooverenImage from "./images/leiding/KobeVanLooveren.avif";
 import louisJanssensImage from "./images/leiding/LouisJanssens.avif";
+import eliaSipsImage from "./images/leiding/EliaSips.avif";
 export const leidingData = [
   {
     title: "Groepsleiding",
@@ -255,7 +256,7 @@ export const leidingData = [
        {
            name: "Elia Sips",
             scoutsName: "Blijgeestige Boxer",
-            image: null,
+            image: eliaSipsImage,
             details: ["verhuur", "leider Kapoenen", "0467 02 20 77", "sipelia@.com"],
  },
         {
