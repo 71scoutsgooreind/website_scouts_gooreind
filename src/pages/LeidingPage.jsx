@@ -37,7 +37,7 @@ export default function LeidingPage() {
                     <span className="text-green-600"></span>
                   )}
                 </div>
-                <div className="p-6 flex-grow flex flex-col">
+                <div className="p-4 flex-grow flex flex-col">
                   <h3 className="text-xl font-semibold text-green-900">{member.name}</h3>
                   <p className="text-md text-green-700 italic mb-4">{member.scoutsName}</p>
                   <ul className="list-disc list-inside space-y-1 text-sm text-gray-600 mt-4">
