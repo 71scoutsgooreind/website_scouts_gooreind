@@ -15,7 +15,8 @@ import margauxNuytsImage from "./images/leiding/MargauxNuyts.avif";
 import thomasCuypersImage from "./images/leiding/ThomasCuypers.avif";
 import hannesVanhooydonckImage from "./images/leiding/HannesVanhooydonck.avif";
 import jasperVanBrechtImage from "./images/leiding/JasperVanBrecht.avif";
-
+import kobeVanLooverenImage from "./images/leiding/KobeVanLooveren.avif";
+import LouisJanssensImage from "./images/leiding/LouisJanssens.avif";
 export const leidingData = [
   {
     title: "Groepsleiding",
