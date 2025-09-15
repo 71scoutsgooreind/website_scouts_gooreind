@@ -186,6 +186,18 @@ export const leidingData = [
             image: robbeKnaepkensImage,
             details: ["tipsi-team","sponsering kamp", "Leider Wolven", "0468 45 49 54", "robbe.knaepkens1@telenet.be"],
  },
+       {
+           name: "Jasper Van Looveren",
+            scoutsName: "Strijdlustige Arasari",
+            image: jasperVanLooverenImage,
+            details: ["NVDJB", "leider Wolven", "0487 22 21 14", "vanlooverenjasper@gmail.com"],
+ },
+        {
+           name: "Kobe Francken",
+            scoutsName: "Bereidwillige Steppelemming",
+            image: kobeFranckenImage,
+            details: ["milieu verantwoordelijke", "verhuur", "0467 01 78 67", "kobefrancken@telenet.be"],
+ },
     ]
   },
   {
@@ -208,7 +220,20 @@ export const leidingData = [
            name: "Jasper Van Brecht",
             scoutsName: "Impulsieve Conejo",
             image: jasperVanBrechtImage,
-            details: ["Verantwoordelijke breugelavond", "Leider Kapoenen", "0479 12 31 51", "jaspervanbrecht@gmail.com"],
+            details: ["Verantwoordelijke breugelavond", "Leider welka's", "0479 12 31 51", "jaspervanbrecht@gmail.com"],
+},
+      {
+           name: "Kobe Van Looveren",
+            scoutsName: "Wilskrachtige Saki",
+            image: kobeVanLooverenImage,
+            details: ["website verantwoordelijke", "Leider Welka's", "0456 12 14 57", "kobevanlooveren2007@gmail.com"],
+ },
+       
+        {
+           name: "Louis Janssen",
+            scoutsName: "Luchthartige Streepmuis",
+            image: louisJanssensImage,
+            details: ["bar-team", "bedanking vrijwilligers", "0485 30 32 27", "louisjanssen@gmail.com"],
 },
     ]
   },
@@ -227,7 +252,18 @@ export const leidingData = [
             image: thomasPreudhommeImage,
             details: ["Groepsleider", "Financiën", "leider Kapoenen", "0468 57 32 76", "thomaspreudhomme@outlook.com"],
  },
-       
+       {
+           name: "Elia Sips",
+            scoutsName: "Blijgeestige Boxer",
+            image: eliaSipsImage,
+            details: ["verhuur", "leider Kapoenen", "0467 02 20 77", "sipelia@.com"],
+ },
+        {
+           name: "Matthias Cox",
+            scoutsName: "Schalkse Groenling",
+            image: matthiasCoxImage,
+            details: ["bedanking vrijwilligers", "leider Kapoenen", "0467 01 72 41", "matthiascox4@icloud.com"],
+ },
     ]
   },
 ];
