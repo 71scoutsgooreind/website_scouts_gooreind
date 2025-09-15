@@ -189,13 +189,13 @@ export const leidingData = [
        {
            name: "Jasper Van Looveren",
             scoutsName: "Strijdlustige Arasari",
-            image: jasperVanLooverenImage,
+            image: null,
             details: ["NVDJB", "leider Wolven", "0487 22 21 14", "vanlooverenjasper@gmail.com"],
  },
         {
            name: "Kobe Francken",
             scoutsName: "Bereidwillige Steppelemming",
-            image: kobeFranckenImage,
+            image: null,
             details: ["milieu verantwoordelijke", "verhuur", "0467 01 78 67", "kobefrancken@telenet.be"],
  },
     ]
@@ -255,13 +255,13 @@ export const leidingData = [
        {
            name: "Elia Sips",
             scoutsName: "Blijgeestige Boxer",
-            image: eliaSipsImage,
+            image: null,
             details: ["verhuur", "leider Kapoenen", "0467 02 20 77", "sipelia@.com"],
  },
         {
            name: "Matthias Cox",
             scoutsName: "Schalkse Groenling",
-            image: matthiasCoxImage,
+            image: null,
             details: ["bedanking vrijwilligers", "leider Kapoenen", "0467 01 72 41", "matthiascox4@icloud.com"],
  },
     ]
