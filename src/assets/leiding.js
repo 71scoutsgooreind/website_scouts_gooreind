@@ -72,7 +72,7 @@ export const leidingData = [
              name: "Margaux Nuyts",
             scoutsName: "Joviale Zwaluw",
             image: margauxNuytsImage,
-            details: ["Verantwoordelijke Sociale Media", "zorgpersoon", "Leidster Jonggivers", "0471 36 53 14", "margaux.nuyts@gmail.com"]
+            details: ["Groepsleidster","Verantwoordelijke Sociale Media", "Leidster Jonggivers", "0471 36 53 14", "margaux.nuyts@gmail.com"]
         },
         {
             name: "Roos Van Look",
@@ -89,7 +89,7 @@ export const leidingData = [
             name: "Stef Cox",
             scoutsName: "Goedhartige Vink",
             image: null,
-            details: ["Container verantwoordelijke", "Bar-team", "Leider Jins", "0468 29 87 72", "stefcox11@hotmail.com"],
+            details: ["Container verantwoordelijke", "Leider Jins", "0468 29 87 72", "stefcox11@hotmail.com"],
         },
         {
            name: "Lenka Sips",
@@ -124,7 +124,7 @@ export const leidingData = [
             name: "Siemon Renders",
             scoutsName: "Amicale Newfoundlander",
             image: siemonRendersImage,
-            details: ["overgang", "Verantwoordelijke daguitstap", "Leider Givers", "0493 96 87 83", "siemon.renders@gmail.com"],
+            details: ["Verantwoordelijke daguitstap", "Leider Givers", "0493 96 87 83", "siemon.renders@gmail.com"],
         },
         {
              name: "Sander Verheyden",
@@ -148,7 +148,7 @@ export const leidingData = [
            name: "Gijs Van den Bergh",
             scoutsName: "Werklustige Bever",
             image: gijsVanDenBerghImage,
-            details: ["Groepleider", "Leider Jonggivers", "0471 49 48 44", "vandenberghgijs1@gmail.com"],
+            details: ["Groepsleider", "Leider Jonggivers", "0471 49 48 44", "vandenberghgijs1@gmail.com"],
  },
        
         {
@@ -162,7 +162,7 @@ export const leidingData = [
             name: "Margaux Nuyts",
             scoutsName: "Joviale Zwaluw",
             image: margauxNuytsImage,
-            details: ["Verantwoordelijke Sociale Media", "zorgpersoon", "Leidster Jonggivers", "0471 36 53 14", "margaux.nuyts@gmail.com"]
+            details: ["Groepleidster", "Verantwoordelijke Sociale Media", "zorgpersoon", "Leidster Jonggivers", "0471 36 53 14", "margaux.nuyts@gmail.com"]
          },
     ]
   },
@@ -235,7 +235,7 @@ export const leidingData = [
            name: "Louis Janssen",
             scoutsName: "Luchthartige Streepmuis",
             image: louisJanssenImage,
-            details: ["bar-team", "bedanking vrijwilligers","leider welka's", "0485 30 32 27", "louisjanssen@gmail.com"],
+            details: ["bedanking vrijwilligers","leider welka's", "0485 30 32 27", "louisjanssen@gmail.com"],
 },
     ]
   },
@@ -246,7 +246,7 @@ export const leidingData = [
             name: "Hannes Vanhooydonck",
             scoutsName: "Aimabele Fret",
             image: hannesVanhooydonckImage,
-            details: ["bar team", "leidingsmerchandise", "takleider Kapoenen", "0468 23 27 67", "hannes.vanhooydonck@gmail.com"],
+            details: ["leidingsmerchandise", "takleider Kapoenen", "0468 23 27 67", "hannes.vanhooydonck@gmail.com"],
         },
         {
            name: "Thomas Preud'homme",
