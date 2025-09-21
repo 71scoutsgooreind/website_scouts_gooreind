@@ -1,4 +1,4 @@
-ke// src/pages/JefkePage.jsx
+
 import React from "react";
 import jefkePdf from "../assets/pdfs/Jefke maart en april.pdf";
 
