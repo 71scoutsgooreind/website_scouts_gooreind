@@ -1,6 +1,6 @@
 // src/pages/JefkePage.jsx
 import React from "react";
-import jefkePdf from "../assets/pdfs/jefke.pdf";
+import jefkePdf from "../assets/pdfs/jefke20september20tot20november_compressed.pdf";
 
 export default function JefkePage() {
   return (
