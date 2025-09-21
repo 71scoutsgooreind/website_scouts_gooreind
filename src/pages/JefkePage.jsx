@@ -1,6 +1,6 @@
-// src/pages/JefkePage.jsx
+ke// src/pages/JefkePage.jsx
 import React from "react";
-import jefkePdf from "../assets/pdfs/Jefke maart en april.pdf";
+import jefkePdf from "../assets/pdfs/jefke september tot november.pdf";
 
 export default function JefkePage() {
   return (
@@ -13,7 +13,7 @@ export default function JefkePage() {
       </div>
       <section id="jefke" className="my-12 bg-green-50 p-8 rounded-xl shadow-lg">
         <h3 className="text-green-900 text-3xl font-bold text-center mb-8">
-          Jefke - Maart & April
+          Jefke - september-oktober-november
         </h3>
         <div className="t-12">
           {/* Mobile: Show a download button */}
