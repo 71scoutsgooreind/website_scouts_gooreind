@@ -13,7 +13,7 @@ export default function JefkePage() {
       </div>
       <section id="jefke" className="my-12 bg-green-50 p-8 rounded-xl shadow-lg">
         <h3 className="text-green-900 text-3xl font-bold text-center mb-8">
-          Jefke - september-oktober-november
+          Jefke - september-november
         </h3>
         <div className="t-12">
           {/* Mobile: Show a download button */}
