@@ -8,6 +8,24 @@ import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
 export default function HomePage() {
   return (
     <>
+      <style>
+        {`
+          @keyframes fadeInScaleUp {
+            from {
+              opacity: 0;
+              transform: scale(0.95) translateY(10px);
+            }
+            to {
+              opacity: 1;
+              transform: scale(1) translateY(0);
+            }
+          }
+          .animate-card {
+            opacity: 0;
+            animation: fadeInScaleUp 0.5s ease-out forwards;
+          }
+        `}
+      </style>
       <section id="home" className="relative rounded-lg overflow-hidden my-8">
       <img
         src={heroImage}
@@ -26,10 +44,11 @@ export default function HomePage() {
           Ons Bouwproject
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 place-items-center">
-          {sponsors.map((s) => (
+          {sponsors.map((s, index) => (
             <div
               key={s.img}
-              className="flex items-center justify-center w-full h-32 sm:h-40 bg-white border rounded-xl shadow-md p-4 hover:shadow-lg transition"
+              className="flex items-center justify-center w-full h-32 sm:h-40 bg-white border rounded-xl shadow-md p-4 hover:shadow-lg transition animate-card"
+              style={{ animationDelay: `${index * 100}ms` }}
             >
               <img
                 src={s.img}
