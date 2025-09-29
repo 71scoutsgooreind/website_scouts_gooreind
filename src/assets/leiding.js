@@ -94,7 +94,7 @@ export const leidingData = [
         {
             name: "Stef Cox",
             scoutsName: "Goedhartige Vink",
-            image: null,
+            image: stefCoxImage,
             details: ["Container verantwoordelijke", "Leider Jins", "0468 29 87 72", "stefcox11@hotmail.com"],
         },
         {
@@ -135,7 +135,7 @@ export const leidingData = [
         {
              name: "Sander Verheyden",
             scoutsName: "Leergierig Zeepaard",
-            image: null,
+            image: sanderVerheydenImage,
             details: ["Verantwoordelijke Container", "Verantwoordelijke daguitstap", "Leider Givers", "0468 56 82 79", "sander.verheyden@telenet.be"],
  },
       
@@ -178,7 +178,7 @@ export const leidingData = [
        {
             name: "Lieselot Vanhooydonck",
             scoutsName: "Hulpvaardige Spitsvogel",
-            image: null,
+            image: lieselotteVanhooydonckImage,
             details: ["opening nieuw lokaal", "takleidster Wolven", "0468 24 38 36", "lieselot.vanhooydonck@gmail.com"],
  },
         {
@@ -197,13 +197,13 @@ export const leidingData = [
        {
            name: "Jasper Van Looveren",
             scoutsName: "Strijdlustige Arasari",
-            image: null,
+            image: jasperVanLooverenImage,
             details: ["NVDJB", "leider Wolven", "0487 22 21 14", "vanlooverenjasper@gmail.com"],
  },
         {
            name: "Kobe Francken",
             scoutsName: "Bereidwillige Steppelemming",
-            image: null,
+            image: kobeFranckenImage,
             details: ["milieu verantwoordelijke", "verhuur","Leider wolven", "0467 01 78 67", "kobefrancken@telenet.be"],
  },
     ]
@@ -269,7 +269,7 @@ export const leidingData = [
         {
            name: "Matthias Cox",
             scoutsName: "Schalkse Groenling",
-            image: null,
+            image: matthiasCoxImage,
             details: ["bedanking vrijwilligers", "leider Kapoenen", "0467 01 72 41", "matthiascox4@icloud.com"],
  },
     ]
