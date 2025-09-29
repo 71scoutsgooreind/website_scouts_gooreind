@@ -1,7 +1,6 @@
 // src/pages/HomePage.jsx
 import React from "react";
 import { sponsors } from "../assets/sponsors";
-import flyerPdf from "../assets/pdfs/flyer sponsoring scouts.pdf";
 import trooperImage from "../assets/images/algemeen/Trooper.avif";
 import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
 
@@ -39,50 +38,7 @@ export default function HomePage() {
       </div>
     </section>
     
-      <section id="bouwproject" className="my-12 bg-green-50 p-8 rounded-xl shadow-lg">
-        <h3 className="text-green-900 text-3xl font-bold text-center mb-8">
-          Ons Bouwproject
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 place-items-center">
-          {sponsors.map((s, index) => (
-            <div
-              key={s.img}
-              className="flex items-center justify-center w-full h-32 sm:h-40 bg-white border rounded-xl shadow-md p-4 hover:shadow-lg transition animate-card"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <img
-                src={s.img}
-                alt={s.name}
-                className="h-full w-full object-contain"
-              />
-            </div>
-          ))}
-        </div>
-        <div className="mt-12">
-          {/* Mobile: Show a download button */}
-          <div className="md:hidden text-center">
-            <a
-              href={flyerPdf}
-              download="flyer-sponsoring-scouts.pdf"
-              className="inline-block bg-green-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-700 transition-colors shadow-md"
-            >
-              Download Sponsoring Flyer 
-            </a>
-            <p className="text-sm text-gray-500 mt-2">
-              De PDF-viewer is niet beschikbaar op mobiel.
-            </p>
-          </div>
-
-          {/* Desktop: Show the embedded PDF viewer */}
-          <div className="hidden md:block w-full max-w-4xl mx-auto aspect-[4/5] max-h-[85vh] rounded-lg overflow-hidden shadow-lg">
-            <object data={flyerPdf} type="application/pdf" width="100%" height="100%">
-              <div className="p-4 bg-red-100 border-l-4 border-red-500 text-red-700">
-                <p>Je browser ondersteunt het inline bekijken van PDFs niet. <a href={flyerPdf} className="font-bold hover:underline">Download de flyer hier.</a></p>
-              </div>
-            </object>
-          </div>
-        </div>
-      </section>
+      
 
       <div className="my-12 grid grid-cols-1 gap-8 md:grid-cols-3">
         <section
