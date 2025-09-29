@@ -18,6 +18,12 @@ import jasperVanBrechtImage from "./images/leiding/JasperVanBrecht.avif";
 import kobeVanLooverenImage from "./images/leiding/KobeVanLooveren.avif";
 import louisJanssenImage from "./images/leiding/LouisJanssen.avif";
 import eliaSipsImage from "./images/leiding/EliaSips.avif";
+import kobeFranckenImage from "./images/leiding/KobeFrancken.avif";
+import jasperVanLooverenImage from "./images/leiding/JasperVanLooveren.avif";
+import matthiasCoxImage from "./images/leiding/MatthiasCox.avif";
+import sanderVerheydenImage from "./images/leiding/SanderVerheyden.avif";
+import stefCoxImage from "./images/leiding/StefCox.avif";
+import lieselotteVanhooydonckImage from "./images/leiding/LieselotteVanhooydonck.avif";
 export const leidingData = [
   {
     title: "Groepsleiding",
