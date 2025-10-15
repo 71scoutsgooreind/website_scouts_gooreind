@@ -48,9 +48,7 @@ export default function HomePage() {
   <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
     Toekomstige evenementen
   </h3>
-  <p className="text-gray-700 text-center mb-6">
-    Bekijk hieronder onze jaarkalender.
-  </p>
+
   <div className="flex justify-center">
     <img
       src={breugelavond}
