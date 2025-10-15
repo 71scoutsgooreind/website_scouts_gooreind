@@ -40,27 +40,25 @@ export default function HomePage() {
       </section>
 
      
-      <section
-        id="evenementen"
-        className="my-12 rounded-xl bg-green-50 p-8 shadow-lg"
-      >
-        <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
-          Toekomstige evenementen
-        </h3>
-        <p className="text-gray-700 text-center mb-4">
-          Download hier onze meest recente jaarkalender of bekijk hem direct in je browser.
-        </p>
-        <div className="flex justify-center">
-          <a
-            href="/breugel flyer 2025.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block rounded bg-green-700 px-6 py-3 text-white font-semibold hover:bg-green-800 transition"
-          >
-            Bekijk of download PDF
-          </a>
-        </div>
-      </section>
+    <section
+  id="evenementen"
+  className="my-12 rounded-xl bg-green-50 p-8 shadow-lg"
+>
+  <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
+    Toekomstige evenementen
+  </h3>
+  <p className="text-gray-700 text-center mb-6">
+    Bekijk hieronder onze meest recente jaarkalender.
+  </p>
+  <div className="w-full h-[800px]">
+    <iframe
+      src="/breugel flyer 2025.pdf"
+      title="Jaarkalender Scouts Gooreind"
+      className="w-full h-full border rounded-md"
+    ></iframe>
+  </div>
+</section>
+
 
      
       <div className="my-12 grid grid-cols-1 gap-8 md:grid-cols-3">
