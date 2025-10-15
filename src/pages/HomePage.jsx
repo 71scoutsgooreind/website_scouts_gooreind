@@ -3,6 +3,7 @@ import React from "react";
 import { sponsors } from "../assets/sponsors";
 import trooperImage from "../assets/images/algemeen/Trooper.avif";
 import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
+import breugelavond from "../assets/images/breugelavond.jpg";
 
 export default function HomePage() {
   return (
@@ -47,20 +48,18 @@ export default function HomePage() {
   <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
     Toekomstige evenementen
   </h3>
-  <p className="text-gray-700 text-center mb-4">
-    Download hier onze meest recente jaarkalender of bekijk hem direct in je browser.
+  <p className="text-gray-700 text-center mb-6">
+    Bekijk hieronder onze jaarkalender.
   </p>
   <div className="flex justify-center">
-    <a
-      href="/pdf/jaarkalender.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block rounded bg-green-700 px-6 py-3 text-white font-semibold hover:bg-green-800 transition"
-    >
-      Bekijk of download PDF
-    </a>
+    <img
+      src={breugelavond}
+      alt="breugelavond"
+      className="max-w-full h-auto rounded-md shadow-lg"
+    />
   </div>
 </section>
+
 
 
 
