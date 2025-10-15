@@ -3,7 +3,7 @@ import React from "react";
 import { sponsors } from "../assets/sponsors";
 import trooperImage from "../assets/images/algemeen/Trooper.avif";
 import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
-import breugelavond from "../assets/images/breugelavond.jpg";
+import breugelavond from "../assets/images/breugelavond.png";
 
 export default function HomePage() {
   return (
