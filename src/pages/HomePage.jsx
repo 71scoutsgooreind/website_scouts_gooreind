@@ -41,10 +41,7 @@ export default function HomePage() {
       </section>
 
      
-<section
-  id="evenementen"
-  className="my-12 rounded-xl bg-green-50 p-8 shadow-lg"
->
+<section id="evenementen" className="my-12 rounded-xl bg-green-50 p-8 shadow-lg">
   <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
     Toekomstige evenementen
   </h3>
@@ -56,7 +53,19 @@ export default function HomePage() {
       className="max-w-full h-auto rounded-md shadow-lg"
     />
   </div>
+
+  <div className="mt-6 flex justify-center">
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSfil3cBHMIbxEzswee7HZsfehGJJ3_yPgQTipGboOcaCoDe_Q/viewform"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block rounded bg-green-700 px-6 py-3 text-white font-semibold shadow-md transition hover:bg-green-800"
+    >
+      Inschrijven / Meer info
+    </a>
+  </div>
 </section>
+
 
 
 
