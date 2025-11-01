@@ -30,23 +30,7 @@ export default function JefkePage() {
               De PDF-viewer is niet beschikbaar op mobiel.
             </p>
           </div>
-           <h3 className="text-green-900 text-3xl font-bold text-center mb-8">
-          Jefke - november-februari
-        </h3>
-        <div className="t-12">
-          {/* Mobile: Show a download button */}
-          <div className="md:hidden text-center">
-            <a
-              href={jefkePdf1}
-              download="jefke-pdf.pdf"
-              className="inline-block bg-green-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-700 transition-colors shadow-md"
-            >
-              Download Jefke
-            </a>
-            <p className="text-sm text-gray-500 mt-2">
-              De PDF-viewer is niet beschikbaar op mobiel.
-            </p>
-          </div>
+           
 
           {/* Desktop: Show the embedded PDF viewer */}
           <div className="hidden md:block w-full max-w-4xl mx-auto aspect-[4/5] max-h-[85vh] rounded-lg overflow-hidden shadow-lg">
