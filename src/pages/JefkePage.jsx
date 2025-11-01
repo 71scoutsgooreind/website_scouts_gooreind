@@ -1,6 +1,7 @@
 // src/pages/JefkePage.jsx
 import React from "react";
 import jefkePdf from "../assets/pdfs/jefke20september20tot20november_compressed.pdf";
+import jefkePdf2 from "../assets/pdfs/jefke20november20tot20en20met20februari_compressed (1).pdf";
 
 export default function JefkePage() {
   return (
@@ -20,6 +21,23 @@ export default function JefkePage() {
           <div className="md:hidden text-center">
             <a
               href={jefkePdf}
+              download="jefke-pdf.pdf"
+              className="inline-block bg-green-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-700 transition-colors shadow-md"
+            >
+              Download Jefke
+            </a>
+            <p className="text-sm text-gray-500 mt-2">
+              De PDF-viewer is niet beschikbaar op mobiel.
+            </p>
+          </div>
+           <h3 className="text-green-900 text-3xl font-bold text-center mb-8">
+          Jefke - november-februari
+        </h3>
+        <div className="t-12">
+          {/* Mobile: Show a download button */}
+          <div className="md:hidden text-center">
+            <a
+              href={jefkePdf1}
               download="jefke-pdf.pdf"
               className="inline-block bg-green-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-700 transition-colors shadow-md"
             >
