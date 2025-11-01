@@ -18,14 +18,20 @@ export default function VOSOGPage() {
       </div>
 
       {vosogData.sections.map((section) => (
-        <Section key={section.title} title={section.title} id={section.title.toLowerCase().replace(/\s/g, "-")}>
+        <Section
+          key={section.title}
+          title={section.title}
+          id={section.title.toLowerCase().replace(/\s/g, "-")}
+        >
           <div className="text-gray-700 space-y-4 max-w-4xl mx-auto">
             {section.paragraphs.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
           </div>
-          {section.image ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-4xl mx-auto">
+
+          {/* ✅ Correct gesloten conditional block */}
+          {section.image && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-4xl mx-auto mt-8">
               <div className="flex justify-center">
                 <img
                   src={section.image}
@@ -33,7 +39,7 @@ export default function VOSOGPage() {
                   className="rounded-lg shadow-md max-h-96 w-full object-contain"
                 />
               </div>
-              
+            </div>
           )}
         </Section>
       ))}
