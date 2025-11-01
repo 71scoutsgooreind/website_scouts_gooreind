@@ -33,18 +33,7 @@ export default function VOSOGPage() {
                   className="rounded-lg shadow-md max-h-96 w-full object-contain"
                 />
               </div>
-              <div className="text-gray-700 space-y-4">
-                {section.paragraphs.map((p, i) => (
-                  <p key={i}>{p}</p>
-                ))}
-              </div>
-            </div>
-          ) : (
-            <div className="text-gray-700 space-y-4 max-w-4xl mx-auto">
-              {section.paragraphs.map((p, i) => (
-                <p key={i}>{p}</p>
-              ))}
-            </div>
+              
           )}
         </Section>
       ))}
