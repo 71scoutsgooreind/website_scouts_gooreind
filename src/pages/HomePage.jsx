@@ -3,7 +3,6 @@ import React from "react";
 import { sponsors } from "../assets/sponsors";
 import trooperImage from "../assets/images/algemeen/Trooper.avif";
 import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
-import breugelavond from "../assets/images/breugelavond.png";
 
 export default function HomePage() {
   return (
@@ -41,46 +40,7 @@ export default function HomePage() {
       </section>
 
      
-<section id="evenementen" className="my-12 rounded-xl bg-green-50 p-8 shadow-lg">
-  <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
-    Toekomstige evenementen
-  </h3>
 
-  <div className="flex justify-center">
-    <img
-      src={breugelavond}
-      alt="breugelavond"
-      className="max-w-full h-auto rounded-md shadow-lg"
-    />
-  </div>
-
- <div className="mt-8 flex justify-center">
-  <a
-    href="https://docs.google.com/forms/d/e/1FAIpQLSfil3cBHMIbxEzswee7HZsfehGJJ3_yPgQTipGboOcaCoDe_Q/viewform"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="group inline-flex items-center gap-3 rounded-full bg-green-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition transform hover:bg-green-700 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-400 animate-pulse"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-6 w-6 text-white transition-transform group-hover:rotate-6"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      strokeWidth={2}
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-      />
-    </svg>
-    Inschrijven / Meer info
-  </a>
-</div>
-
-  
-</section>
 
 
 
