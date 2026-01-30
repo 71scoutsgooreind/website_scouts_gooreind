@@ -188,7 +188,7 @@ export default function HomePage() {
   </h3>
 
   <p className="mx-auto max-w-3xl text-center text-gray-700 leading-relaxed">
-    <strong>Groepsadministratie:</strong> Via de Groepsadministratie kunt u zelf
+    Via de Groepsadministratie kunt u zelf
     eenvoudig de contactgegevens en het adres van uw kind beheren. Ook kunt u
     hier terecht voor het downloaden van fiscale attesten.
     <br />
