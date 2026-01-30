@@ -179,6 +179,25 @@ export default function HomePage() {
           />
         </div>
       </section>
+      <section
+  id="groepsadministratie"
+  className="my-12 rounded-xl bg-green-50 p-8 shadow-lg"
+>
+  <h3 className="mb-6 text-center text-3xl font-bold text-green-900">
+    Groepsadministratie
+  </h3>
+
+  <p className="mx-auto max-w-3xl text-center text-gray-700 leading-relaxed">
+    <strong>Groepsadministratie:</strong> Via de Groepsadministratie kunt u zelf
+    eenvoudig de contactgegevens en het adres van uw kind beheren. Ook kunt u
+    hier terecht voor het downloaden van fiscale attesten.
+    <br />
+    <br />
+    Inloggen doet u met het lidnummer van uw kind. Lukt het inloggen niet? Stuur
+    dan gerust een mailtje of een berichtje, we helpen u graag verder!
+  </p>
+</section>
+
     </>
   );
 }
