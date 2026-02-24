@@ -3,7 +3,8 @@ import React from "react";
 import { sponsors } from "../assets/sponsors";
 import trooperImage from "../assets/images/algemeen/Trooper.avif";
 import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
-import openingNieuwLokaal from "../assets/pdf/Uitnodiging_opening.pdf";
+import openingNieuwLokaal from "../assets/pdfs/Uitnodiging_opening.pdf";
+
 
 export default function HomePage() {
   return (
