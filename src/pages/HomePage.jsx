@@ -177,26 +177,28 @@ export default function HomePage() {
 
       <section id="trooper" className="my-12 rounded-xl bg-green-50 p-8 shadow-lg">
         <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-3">
-          <div className="md:col-span-2">
-            <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
-              Trooper
-            </h3>
-            <p className="text-gray-700">
-              Wilt u scouts Gooreind graag financieel een duwtje in de rug geven
-              en shopt u soms wel eens online? Dan is Trooper een fantastische
-              manier om ons te steunen, zonder dat het u een cent extra kost!
-              Klik op de volgende{" "}
-              <a
-                href="https://www.trooper.be/nl/trooperverenigingen/scoutsgooreind"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-bold text-green-700 underline hover:text-green-800"
-              >
-                link
-              </a>{" "}
-              en shop via onze Trooper-pagina.
-            </p>
-          </div>
+<div className="md:col-span-2 flex flex-col items-center text-center">
+  <h3 className="mb-8 text-3xl font-bold text-green-900">
+    Trooper
+  </h3>
+
+  <p className="max-w-2xl text-gray-700">
+    Wilt u scouts Gooreind graag financieel een duwtje in de rug geven
+    en shopt u soms wel eens online? Dan is Trooper een fantastische
+    manier om ons te steunen, zonder dat het u een cent extra kost!
+    Klik op de volgende{" "}
+    <a
+      href="https://www.trooper.be/nl/trooperverenigingen/scoutsgooreind"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-bold text-green-700 underline hover:text-green-800"
+    >
+      link
+    </a>{" "}
+    en shop via onze Trooper-pagina.
+  </p>
+</div>
+
           <img
             src={trooperImage}
             alt="Trooper"
