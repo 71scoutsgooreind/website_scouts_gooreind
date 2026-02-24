@@ -3,6 +3,7 @@ import React from "react";
 import { sponsors } from "../assets/sponsors";
 import trooperImage from "../assets/images/algemeen/Trooper.avif";
 import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
+import openingNieuwLokaal from "../assets/pdf/Uitnodiging_opening.pdf";
 
 export default function HomePage() {
   return (
@@ -38,6 +39,44 @@ export default function HomePage() {
           </h1>
         </div>
       </section>
+<section
+  id="opening-nieuw-lokaal"
+  className="my-12 rounded-xl bg-green-50 p-8 shadow-lg"
+>
+  <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
+    Opening nieuw lokaal
+  </h3>
+
+  <div className="flex flex-col items-center gap-6">
+    <p className="max-w-3xl text-center text-gray-700">
+      We nodigen jullie graag uit voor de feestelijke opening van ons nieuw lokaal.
+      Klik hieronder om alle praktische informatie te bekijken.
+    </p>
+
+    <a
+      href={openingNieuwLokaal}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group inline-flex items-center gap-3 rounded-full bg-green-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition transform hover:bg-green-700 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-400"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-6 w-6 text-white transition-transform group-hover:rotate-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        strokeWidth={2}
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M12 4v16m8-8H4"
+        />
+      </svg>
+      Bekijk PDF
+    </a>
+  </div>
+</section>
 
       {/* <section id="evenementen" className="my-12 rounded-xl bg-green-50 p-8 shadow-lg">
   <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
