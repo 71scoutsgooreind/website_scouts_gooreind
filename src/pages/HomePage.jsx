@@ -48,6 +48,10 @@ export default function HomePage() {
     Opening nieuw lokaal
   </h3>
 
+  <div className="flex flex-col items-center gap-6">
+    <p className="max-w-3xl text-center text-gray-700">
+      Hieronder vindt u de officiële uitnodiging voor de opening van ons nieuw lokaal.
+    </p>
 
     <div className="w-full max-w-5xl h-[800px] rounded-lg overflow-hidden shadow-lg border border-green-200">
       <iframe
