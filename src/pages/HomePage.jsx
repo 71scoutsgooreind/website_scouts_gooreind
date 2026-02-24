@@ -209,17 +209,38 @@ export default function HomePage() {
   </h3>
 
   <p className="mx-auto max-w-3xl text-center text-gray-700 leading-relaxed">
-    Via de Groepsadministratie kunt u zelf
-    eenvoudig de contactgegevens en het adres van uw kind beheren. Ook kunt u
-    hier terecht voor het downloaden van fiscale attesten.
+    Via de Groepsadministratie kunt u zelf eenvoudig de contactgegevens en het
+    adres van uw kind beheren. Ook kunt u hier terecht voor het downloaden van
+    fiscale attesten.
     <br />
     <br />
-    Inloggen doet u met het lidnummer van uw kind. Lukt het inloggen niet? Stuur
-    dan gerust een mailtje of een berichtje, we helpen u graag verder!
+    Inloggen doet u met het lidnummer van uw kind. Lukt het inloggen niet?
+    Stuur dan gerust een mailtje of een berichtje, we helpen u graag verder!
   </p>
-</section>
 
-    </>
-  );
-}
+  <div className="mt-8 flex justify-center">
+    <a
+      href="https://groepsadmin.scoutsengidsenvlaanderen.be/groepsadmin"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group inline-flex items-center gap-3 rounded-full bg-green-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition transform hover:bg-green-700 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-400"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-6 w-6 transition-transform group-hover:rotate-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        strokeWidth={2}
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M15 3h6m0 0v6m0-6L10 14"
+        />
+      </svg>
+      Ga naar Groepsadministratie
+    </a>
+  </div>
+</section>
 
