@@ -9,7 +9,7 @@ import LeidingPage from "./pages/LeidingPage";
 import GroepenPage from "./pages/GroepenPage";
 import InschrijvenPage from "./pages/InschrijvenPage";
 import UniformPage from "./pages/UniformPage";
-import VOSOGPage from "./pages/VOSOGPage";
+import OudercomitéPage from "./pages/OudercomitePage";
 import GDPRPage from "./pages/GDPRPage";
 import VerhuurPage from "./pages/VerhuurPage";
 
@@ -27,7 +27,7 @@ export default function App() {
             <Route path="/inschrijven" element={<InschrijvenPage />} />
             <Route path="/uniform" element={<UniformPage />} />
             <Route path="/verhuur" element={<VerhuurPage />} />
-            <Route path="/vosog" element={<VOSOGPage />} />
+            <Route path="/oudercomité" element={<OudercomitéPage />} />
             <Route path="/gdpr" element={<GDPRPage />} />
           </Routes>
         </main>
