@@ -39,20 +39,20 @@ export default function OudercomitePage() {
 
             <ul className="list-disc pl-6 space-y-2">
               <li>Mee de schouders zetten onder de <strong>openscoutsdag</strong>, de <strong>breugelavond</strong> en de <strong>jaarlijkse BBQ</strong>.</li>
-              <li><strong>Herstellingen uitvoeren</strong> en de lokalen onderhouden en verhuren.</li>
-              <li>Klankbord zijn of inspelen op noden van de groep wanneer de groepsleiding dat vraagt.</li>
-              <li>Administratie en wettelijke verplichtingen die horen bij een <strong>vzw-werking</strong>.</li>
+              <li><strong>Herstellingen</strong> uitvoeren en de <strong>lokalen onderhouden</strong> en <strong>verhuren</strong>.</li>
+              <li>Klankbord zijn of <strong>inspelen op noden van de groep</strong> wanneer de groepsleiding dat vraagt.</li>
+              <li><strong>Administratie</strong> en wettelijke verplichtingen die horen bij een <strong>vzw-werking</strong>.</li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold text-green-800 mb-3">
-              We zoeken nieuwe helpende handen
+              We zoeken nieuwe enthousiastelingen om ons team te versterken
             </h3>
 
             <ul className="list-disc pl-6 space-y-2">
-              <li>We vergaderen ongeveer <strong>5 keer per jaar</strong> samen met (een delegatie van) de groepsleiding.</li>
-              <li>We helpen bij de voorbereiding en organisatie van de <strong>openscoutsdag (september)</strong>, 
+              <li>We <strong>vergaderen </strong>ongeveer 5 keer per jaar samen met (een delegatie van) de groepsleiding.</li>
+              <li>We <strong>helpen</strong> bij de voorbereiding en organisatie van de <strong>openscoutsdag (september)</strong>, 
               <strong> breugelavond (november)</strong> en de <strong>BBQ (juni)</strong>.</li>
               <li>We organiseren één of twee keer per jaar een <strong>klusdag of poetsdag</strong> in de lokalen.</li>
               <li>Het <strong>klusteam</strong> kan altijd extra helpende handen gebruiken.</li>
