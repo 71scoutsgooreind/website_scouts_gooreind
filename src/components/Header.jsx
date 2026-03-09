@@ -12,7 +12,7 @@ export default function Header() {
     { name: "Inschrijven", href: "/inschrijven" },
     { name: "Uniform", href: "/uniform" },
     { name: "Verhuur", href: "/verhuur" },
-    { name: "VOSOG", href: "/vosog" },
+    { name: "Oudercomité", href: "/oudercomité" },
     { name: "GDPR", href: "/gdpr" },
   ];
 
