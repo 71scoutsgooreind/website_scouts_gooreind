@@ -9,7 +9,7 @@ import LeidingPage from "./pages/LeidingPage";
 import GroepenPage from "./pages/GroepenPage";
 import InschrijvenPage from "./pages/InschrijvenPage";
 import UniformPage from "./pages/UniformPage";
-import OudercomitéPage from "./pages/OudercomitePage";
+import OudercomitéPage from "./pages/OudercomitéPage";
 import GDPRPage from "./pages/GDPRPage";
 import VerhuurPage from "./pages/VerhuurPage";
 
