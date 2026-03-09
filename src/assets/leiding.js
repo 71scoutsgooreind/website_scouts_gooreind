@@ -32,7 +32,7 @@ export const leidingData = [
         name: "Maarten Vermeiren",
         scoutsName: "Doorzettende Steenbok",
         image: maartenVermeirenImage,
-        details: ["Leider Givers"],
+        details: ["Leider Givers","0475659209"],
       },
       {
         name: "Gijs Van den Bergh",
@@ -95,13 +95,13 @@ export const leidingData = [
             name: "Stef Cox",
             scoutsName: "Goedhartige Vink",
             image: stefCoxImage,
-            details: ["Container verantwoordelijke", "Leider Jins", "0468 29 87 72", "stefcox11@hotmail.com"],
+            details: ["Container verantwoordelijke", "Leider Jins", "0468 29 87 72", "jin.scoutsgooreind@gmail.com"],
         },
         {
            name: "Lenka Sips",
             scoutsName: "Volhardend stekelvarken",
             image: lenkaSipsImage,
-            details: ["NVDJB", "Leidster Jins", "0472 20 11 43", "sipslenka@gmail.com"],
+            details: ["NVDJB", "Leidster Jins", "0472 20 11 43", "jin.scoutsgooreind@gmail.com"],
 },
     ]
   },
