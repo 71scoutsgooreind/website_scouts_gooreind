@@ -32,7 +32,7 @@ export const leidingData = [
         name: "Maarten Vermeiren",
         scoutsName: "Doorzettende Steenbok",
         image: maartenVermeirenImage,
-        details: ["Leider Givers","0475659209"],
+        details: ["Leider Givers","0475659209","maartenvermeiren@hotmail.be"],
       },
       {
         name: "Gijs Van den Bergh",
