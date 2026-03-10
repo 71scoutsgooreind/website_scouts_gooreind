@@ -63,7 +63,7 @@ export const uniformData = {
       title: "Bestellen",
       text: "Bestellen kan door het invullen van",
       formLink: "https://forms.gle/gLYUoA9H1JjJ8xYC6",
-      paymentInfo: "Als je dit indient staat je bestelling alvast geregistreerd bij ons. Om ze dan volledig af te werken schrijf je het juiste bedrag over naar BE95 7010 1242 9258 met in de mededeling ‘naam lid + merchandise’. (of je eigen naam als je niet voor een lid koopt). Je nieuwe scoutskleding kan dan afgehaald worden voor of na een activiteit bij ons op de scouts.",
+      paymentInfo: "Als je dit indient staat je bestelling alvast geregistreerd bij ons. Om ze dan volledig af te werken schrijf je het juiste bedrag over naar BE82 0689 5752 9968 met in de mededeling ‘naam lid + merchandise’. (of je eigen naam als je niet voor een lid koopt). Je nieuwe scoutskleding kan dan afgehaald worden voor of na een activiteit bij ons op de scouts.",
     },
   },
   secondHand: {
