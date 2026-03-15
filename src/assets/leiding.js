@@ -264,7 +264,7 @@ export const leidingData = [
            name: "Elia Sips",
             scoutsName: "Blijgeestige Boxer",
             image: eliaSipsImage,
-            details: ["verhuur", "leider Kapoenen", "0467 02 20 77", "sipelia@.com"],
+            details: ["verhuur", "leider Kapoenen", "0467 02 20 77", "sipselia@gmail.com"],
  },
         {
            name: "Matthias Cox",
