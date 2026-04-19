@@ -72,7 +72,7 @@ export default function JefkePage() {
 
             {/* Desktop: Show the embedded PDF viewer */}
             <div className="hidden md:block w-full max-w-4xl mx-auto aspect-[4/5] max-h-[85vh] rounded-lg overflow-hidden shadow-lg">
-              <object data={jefkePdf} type="application/pdf" width="100%" height="100%">
+              <object data={jefkePdf2} type="application/pdf" width="100%" height="100%">
                 <div className="p-4 bg-red-100 border-l-4 border-red-500 text-red-700">
                   <p>
                     Je browser ondersteunt het inline bekijken van PDFs niet.{" "}
