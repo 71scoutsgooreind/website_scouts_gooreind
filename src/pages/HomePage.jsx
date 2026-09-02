@@ -4,7 +4,7 @@ import { sponsors } from "../assets/sponsors";
 import trooperImage from "../assets/images/algemeen/Trooper.avif";
 import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
 import openingNieuwLokaal from "../assets/pdfs/Uitnodiging_opening.pdf";
-import quiz from "../assets/pdfs/quiz.jpg";
+import quiz from "../assets/pdfs/quiz.png";
 
 export default function HomePage() {
   return (
