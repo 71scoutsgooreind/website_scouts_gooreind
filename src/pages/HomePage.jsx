@@ -3,6 +3,7 @@ import trooperImage from "../assets/images/algemeen/Trooper.avif";
 import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
 import quiz from "../assets/pdfs/quiz.png";
 
+
 export default function HomePage() {
   return (
     <>
