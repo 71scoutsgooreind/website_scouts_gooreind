@@ -44,7 +44,7 @@ export default function HomePage() {
         className="my-12 rounded-xl bg-green-50 p-8 shadow-lg"
       >
         <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
-          Titel van het evenement
+          Quiz
         </h3>
 
         <div className="flex flex-col items-center gap-6">
