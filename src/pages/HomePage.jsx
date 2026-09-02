@@ -1,9 +1,6 @@
-// src/pages/HomePage.jsx
 import React from "react";
-import { sponsors } from "../assets/sponsors";
 import trooperImage from "../assets/images/algemeen/Trooper.avif";
 import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
-import openingNieuwLokaal from "../assets/pdfs/Uitnodiging_opening.pdf";
 import quiz from "../assets/pdfs/quiz.png";
 
 export default function HomePage() {
@@ -40,100 +37,51 @@ export default function HomePage() {
           </h1>
         </div>
       </section>
-<section
-  id="evenement-inschrijven"
-  className="my-12 rounded-xl bg-green-50 p-8 shadow-lg"
->
-  <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
-    Titel van het evenement
-  </h3>
 
-  <div className="flex flex-col items-center gap-6">
-    {/* Afbeelding op de plek waar voorheen de PDF-iframe stond */}
-    <div className="w-full max-w-5xl rounded-lg overflow-hidden shadow-lg border border-green-200 flex justify-center">
-      <img
-        src={quiz} /* Vervang dit door de geïmporteerde afbeelding variable */
-        alt="Evenement afbeelding"
-        className="w-full h-auto object-cover rounded-lg"
-      />
-    </div>
-
-    {/* Inschrijfknop in dezelfde stijl als de uitgecommentarieerde evenementenknop */}
-    <div className="mt-4 flex justify-center">
-      <a
-        href="https://docs.google.com/forms/d/10Fvr-KQEqfMOokA3s01VXzqYyAB2uwZ8lKJwLrClqm8/edit"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group inline-flex items-center gap-3 rounded-full bg-green-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition transform hover:bg-green-700 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-400 animate-pulse"
+      <section
+        id="evenement-inschrijven"
+        className="my-12 rounded-xl bg-green-50 p-8 shadow-lg"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6 text-white transition-transform group-hover:rotate-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-          />
-        </svg>
-        Inschrijven / Meer info
-      </a>
-    </div>
-  </div>
-</section>
+        <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
+          Titel van het evenement
+        </h3>
 
+        <div className="flex flex-col items-center gap-6">
+          <div className="w-full max-w-5xl rounded-lg overflow-hidden shadow-lg border border-green-200 flex justify-center">
+            <img
+              src={quiz}
+              alt="Evenement afbeelding"
+              className="w-full h-auto object-cover rounded-lg"
+            />
+          </div>
 
-      {/* <section id="evenementen" className="my-12 rounded-xl bg-green-50 p-8 shadow-lg">
-  <h3 className="mb-8 text-center text-3xl font-bold text-green-900">
-    Toekomstige evenementen
-  </h3>
+          <div className="mt-4 flex justify-center">
+            <a
+              href="https://docs.google.com/forms/d/10Fvr-KQEqfMOokA3s01VXzqYyAB2uwZ8lKJwLrClqm8/edit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-3 rounded-full bg-green-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition transform hover:bg-green-700 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-400 animate-pulse"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-white transition-transform group-hover:rotate-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                />
+              </svg>
+              Inschrijven / Meer info
+            </a>
+          </div>
+        </div>
+      </section>
 
-  <div className="flex justify-center">
-    <img
-      src={breugelavond}
-      alt="breugelavond"
-      className="max-w-full h-auto rounded-md shadow-lg"
-    />
-  </div>
-
- <div className="mt-8 flex justify-center">
-  <a
-    href="https://docs.google.com/forms/d/e/1FAIpQLSfil3cBHMIbxEzswee7HZsfehGJJ3_yPgQTipGboOcaCoDe_Q/viewform"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="group inline-flex items-center gap-3 rounded-full bg-green-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition transform hover:bg-green-700 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-400 animate-pulse"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-6 w-6 text-white transition-transform group-hover:rotate-6"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      strokeWidth={2}
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-      />
-    </svg>
-    Inschrijven / Meer info
-  </a>
-</div>
-
-  
-</section> */ }  
-
-
-
-
-
-
-     
       <div className="my-12 grid grid-cols-1 gap-8 md:grid-cols-3">
         <section
           id="social"
@@ -200,27 +148,26 @@ export default function HomePage() {
 
       <section id="trooper" className="my-12 rounded-xl bg-green-50 p-8 shadow-lg">
         <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-3">
-<div className="md:col-span-2 flex flex-col items-center text-center">
-  <h3 className="mb-8 text-3xl font-bold text-green-900">
-    Trooper
-  </h3>
-
-  <p className="max-w-2xl text-gray-700">
-    Wilt u scouts Gooreind graag financieel een duwtje in de rug geven
-    en shopt u soms wel eens online? Dan is Trooper een fantastische
-    manier om ons te steunen, zonder dat het u een cent extra kost!
-    Klik op de volgende{" "}
-    <a
-      href="https://www.trooper.be/nl/trooperverenigingen/scoutsgooreind"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="font-bold text-green-700 underline hover:text-green-800"
-    >
-      link
-    </a>{" "}
-    en shop via onze Trooper-pagina.
-  </p>
-</div>
+          <div className="md:col-span-2 flex flex-col items-center text-center">
+            <h3 className="mb-8 text-3xl font-bold text-green-900">
+              Trooper
+            </h3>
+            <p className="max-w-2xl text-gray-700">
+              Wilt u scouts Gooreind graag financieel een duwtje in de rug geven
+              en shopt u soms wel eens online? Dan is Trooper een fantastische
+              manier om ons te steunen, zonder dat het u een cent extra kost!
+              Klik op de volgende{" "}
+              <a
+                href="https://www.trooper.be/nl/trooperverenigingen/scoutsgooreind"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-green-700 underline hover:text-green-800"
+              >
+                link
+              </a>{" "}
+              en shop via onze Trooper-pagina.
+            </p>
+          </div>
 
           <img
             src={trooperImage}
@@ -229,50 +176,53 @@ export default function HomePage() {
           />
         </div>
       </section>
+
       <section
-  id="groepsadministratie"
-  className="my-12 rounded-xl bg-green-50 p-8 shadow-lg"
->
-  <h3 className="mb-6 text-center text-3xl font-bold text-green-900">
-    Groepsadministratie
-  </h3>
-
-  <p className="mx-auto max-w-3xl text-center text-gray-700 leading-relaxed">
-    Via de Groepsadministratie kunt u zelf eenvoudig de contactgegevens en het
-    adres van uw kind beheren. Ook kunt u hier terecht voor het downloaden van
-    fiscale attesten.
-    <br />
-    <br />
-    Inloggen doet u met het lidnummer van uw kind. Lukt het inloggen niet?
-    Stuur dan gerust een mailtje of een berichtje, we helpen u graag verder!
-  </p>
-
-  <div className="mt-8 flex justify-center">
-    <a
-      href="https://groepsadmin.scoutsengidsenvlaanderen.be/groepsadmin"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group inline-flex items-center gap-3 rounded-full bg-green-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition transform hover:bg-green-700 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-400"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 transition-transform group-hover:rotate-6"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        strokeWidth={2}
+        id="groepsadministratie"
+        className="my-12 rounded-xl bg-green-50 p-8 shadow-lg"
       >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M15 3h6m0 0v6m0-6L10 14"
-        />
-      </svg>
-      Ga naar Groepsadministratie
-    </a>
-  </div>
-</section>
+        <h3 className="mb-6 text-center text-3xl font-bold text-green-900">
+          Groepsadministratie
+        </h3>
+
+        <p className="mx-auto max-w-3xl text-center text-gray-700 leading-relaxed">
+          Via de Groepsadministratie kunt u zelf eenvoudig de contactgegevens en het
+          adres van uw kind beheren. Ook kunt u hier terecht voor het downloaden van
+          fiscale attesten.
+          <br />
+          <br />
+          Inloggen doet u met het lidnummer van uw kind. Lukt het inloggen niet?
+          Stuur dan gerust een mailtje of een berichtje, we helpen u graag verder!
+        </p>
+
+        <div className="mt-8 flex justify-center">
+          <a
+            href="https://groepsadmin.scoutsengidsenvlaanderen.be/groepsadmin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-3 rounded-full bg-green-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition transform hover:bg-green-700 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-400"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 transition-transform group-hover:rotate-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15 3h6m0 0v6m0-6L10 14"
+              />
+            </svg>
+            Ga naar Groepsadministratie
+          </a>
+        </div>
+      </section>
     </>
+  );
+}
   );
 }
 
