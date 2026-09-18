@@ -20,43 +20,35 @@ import sanderVerheydenImage from "./images/leiding/SanderVerheyden.avif";
 import stefCoxImage from "./images/leiding/StefCox.avif";
 import lieselotteVanhooydonckImage from "./images/leiding/LieselotteVanhooydonck.avif";
 
-// Imports voor nieuwe leiding (pas de paden/afbeeldingen aan wanneer beschikbaar)
+// Imports voor nieuwe leiding
 import loreImage from "./images/leiding/Lore.avif";
-import matthisImage from "./images/leiding/Matthis.avif";
 import seppeMImage from "./images/leiding/SeppeM.avif";
-import gilImage from "./images/leiding/Gil.avif";
-import driesImage from "./images/leiding/Dries.avif";
-import warreImage from "./images/leiding/Warre.avif";
 import aliciaImage from "./images/leiding/Alicia.avif";
 import alexineImage from "./images/leiding/Alexine.avif";
-import kobeImage from "./images/leiding/Kobe.avif";
+import kobeVBImage from "./images/leiding/KobeVB.avif";
+import simonBImage from "./images/leiding/SimonB.avif";
+
 export const leidingData = [
   {
     title: "Groepsleiding",
     members: [
       {
-        name: "Maarten Vermeiren",
-        scoutsName: "Doorzettende Steenbok",
-        image: maartenVermeirenImage,
-        details: ["Groepsleider", "Leider Jins", "0475659209", "maartenvermeiren@hotmail.be"],
-      },
-      {
         name: "Gijs Van den Bergh",
         scoutsName: "Werklustige Bever",
         image: gijsVanDenBerghImage,
-        details: ["Groepsleider", "Leider Wolven", "0471 49 48 44", "vandenberghgijs1@gmail.com"],
+        details: ["Groepsleider", "Leider Wolven", "Verhuur", "0471 49 48 44", "vandenberghgijs1@gmail.com"], //[cite: 1]
       },
       {
         name: "Margaux Nuyts",
         scoutsName: "Joviale Zwaluw",
         image: margauxNuytsImage,
-        details: ["Groepsleidster", "Verantwoordelijke Sociale Media", "Zorgpersoon", "Leidster Givers", "0471 36 53 14", "margaux.nuyts@gmail.com"],
+        details: ["Groepsleidster", "Sociale media", "Breughelavond", "Zorgpersoon", "Leidster Givers", "0471 36 53 14", "margaux.nuyts@gmail.com"], //[cite: 1]
       },
       {
         name: "Thomas Preud'homme",
         scoutsName: "Hartverwarmende Winterkoning",
         image: thomasPreudhommeImage,
-        details: ["Groepsleider", "Financiën", "Leider Jins", "0468 57 32 76", "thomaspreudhomme@outlook.com"],
+        details: ["Groepsleider", "Financiën", "Jaarsponsoring", "Leider Jins", "0468 57 32 76", "thomaspreudhomme@outlook.com"], //[cite: 1]
       },
     ],
   },
@@ -67,24 +59,7 @@ export const leidingData = [
         name: "Seppe Janssen",
         scoutsName: "Guitige Spinaap",
         image: seppeJanssenImage,
-        details: ["Inschrijvingen", "Jaarsponsering", "Leider Givers", "0477 86 74 02", "seppejan10@gmail.com"],
-      },
-    ],
-  },
-  {
-    title: "Zorgpersonen",
-    members: [
-      {
-        name: "Margaux Nuyts",
-        scoutsName: "Joviale Zwaluw",
-        image: margauxNuytsImage,
-        details: ["Groepsleidster", "Verantwoordelijke Sociale Media", "Zorgpersoon", "Leidster Givers", "0471 36 53 14", "margaux.nuyts@gmail.com"],
-      },
-      {
-        name: "Roos Van Look",
-        scoutsName: "Olijke Spitsvogel",
-        image: roosVanLookImage,
-        details: ["Scriptor", "Zorgpersoon", "0472 05 14 04", "roos.vl@outlook.com"],
+        details: ["Inschrijvingen", "Cadeau oud-leiding", "Leider Givers", "0477 86 74 02", "seppejan10@gmail.com"], //[cite: 1]
       },
     ],
   },
@@ -95,31 +70,31 @@ export const leidingData = [
         name: "Elien Vermeiren",
         scoutsName: "Krachtige Torenvalk",
         image: elienVermeirenImage,
-        details: ["Takleidster Kapoenen", "0477 28 95 23", "elienvermeiren@hotmail.be"],
+        details: ["Takleidster Kapoenen", "Scriptor", "Verslagen", "Breughelavond", "0477 28 95 23", "elienvermeiren@hotmail.be"], //[cite: 1]
       },
       {
         name: "Thomas Cuypers",
         scoutsName: "Spitsvondige Kraanvogel",
         image: thomasCuypersImage,
-        details: ["Verantwoordelijke Merchandise", "Leider Kapoenen", "0472 82 47 22", "thomascuypers@outlook.com"],
+        details: ["Leider Kapoenen", "Merchandise", "Plek groepskamp 2028", "0472 82 47 22", "thomascuypers@outlook.com"], //[cite: 1]
       },
       {
         name: "Lore",
-        scoutsName: "Scoutsnaam invullen",
+        scoutsName: "Harmonieuze Kea",
         image: loreImage,
-        details: ["Leidster Kapoenen", "0400 00 00 00", "lore@gmail.com"],
+        details: ["Leidster Kapoenen", "Tipsi team", "Bedanking vrijwilligers", "Zorgpersoon", "0468 28 21 00", "lorevlooveren@telenet.be"], //[cite: 1]
       },
       {
         name: "Matthis",
-        scoutsName: "Scoutsnaam invullen",
+        scoutsName: "Montere Koi",
         image: matthisImage,
-        details: ["Leider Kapoenen", "0400 00 00 00", "matthis@gmail.com"],
+        details: ["Leider Kapoenen", "Verhuur", "Cadeau oud-leiding", "0492 52 18 47", "matthis.mennes@icloud.com"], //[cite: 1]
       },
       {
         name: "Seppe M",
-        scoutsName: "Scoutsnaam invullen",
+        scoutsName: "Betrouwbare Beermarter",
         image: seppeMImage,
-        details: ["Leider Kapoenen", "0400 00 00 00", "seppe.m@gmail.com"],
+        details: ["Leider Kapoenen", "Bar opruim team", "NVDJB", "0471 01 01 07", "seppe.maes001@gmail.com"], //[cite: 1]
       },
     ],
   },
@@ -130,31 +105,31 @@ export const leidingData = [
         name: "Stef Cox",
         scoutsName: "Goedhartige Vink",
         image: stefCoxImage,
-        details: ["Takleider Welka's", "Container verantwoordelijke", "0468 29 87 72", "stefcox@gmail.com"],
+        details: ["Takleider Welka's", "Bar team", "Container", "NVDJB", "0468 29 87 72", "stefcox@gmail.com"], //[cite: 1]
       },
       {
-        name: "Jasper Van Brecht",
-        scoutsName: "Impulsieve Conejo",
-        image: jasperVanBrechtImage,
-        details: ["Verantwoordelijke breugelavond", "Leider Welka's", "0479 12 31 51", "jaspervanbrecht@gmail.com"],
+        name: "Kobe Van Brecht",
+        scoutsName: "Gezellige Agame",
+        image: kobeVBImage,
+        details: ["Leider Welka's", "Bar team", "Milieu", "0470 37 34 39", "kobevanbrecht@gmail.com"], //[cite: 1]
       },
       {
         name: "Gil",
-        scoutsName: "Scoutsnaam invullen",
+        scoutsName: "Expressieve Lori",
         image: gilImage,
-        details: ["Leider Welka's", "0400 00 00 00", "gil@gmail.com"],
+        details: ["Leider Welka's", "Milieu", "Plek groepskamp 2028", "0456 75 07 19", "Gil@ipower.eu"], //[cite: 1]
       },
       {
         name: "Rine Janssen",
         scoutsName: "Onbevangen Berner Sennenhond",
         image: rineJanssenImage,
-        details: ["Tipsi-team", "Leidster Welka's", "0471 83 29 13", "rinejanssen@gmail.com"],
+        details: ["Leidster Welka's", "Daguitstap", "0471 83 29 13", "rinejanssen@gmail.com"], //[cite: 1]
       },
       {
         name: "Elia Sips",
         scoutsName: "Blijgeestige Boxer",
         image: eliaSipsImage,
-        details: ["Verhuur", "Leider Welka's", "0467 02 20 77", "sipselia@gmail.com"],
+        details: ["Leider Welka's", "Breughelavond", "Plek groepskamp 2028", "0467 02 20 77", "sipselia@gmail.com"], //[cite: 1]
       },
     ],
   },
@@ -165,31 +140,31 @@ export const leidingData = [
         name: "Kobe Francken",
         scoutsName: "Bereidwillige Steppelemming",
         image: kobeFranckenImage,
-        details: ["Takleider Wolven", "Milieu verantwoordelijke", "Verhuur", "0467 01 78 67", "kobefrancken@telenet.be"],
+        details: ["Takleider Wolven", "Container", "0467 01 78 67", "kobefrancken@telenet.be"], //[cite: 1]
       },
       {
         name: "Dries",
-        scoutsName: "Scoutsnaam invullen",
+        scoutsName: "Vredevolle Secretarisvogel",
         image: driesImage,
-        details: ["Leider Wolven", "0400 00 00 00", "dries@gmail.com"],
+        details: ["Leider Wolven", "Financiën (opleiding)", "0472 11 20 76", "driescuypers@outlook.com"], //[cite: 1]
       },
       {
         name: "Gijs Van den Bergh",
         scoutsName: "Werklustige Bever",
         image: gijsVanDenBerghImage,
-        details: ["Groepsleider", "Leider Wolven", "0471 49 48 44", "vandenberghgijs1@gmail.com"],
+        details: ["Groepsleider", "Leider Wolven", "Verhuur", "0471 49 48 44", "vandenberghgijs1@gmail.com"], //[cite: 1]
       },
       {
         name: "Warre",
-        scoutsName: "Scoutsnaam invullen",
+        scoutsName: "Aimabele Poedel",
         image: warreImage,
-        details: ["Leider Wolven", "0400 00 00 00", "warre@gmail.com"],
+        details: ["Leider Wolven", "Verhuur", "Plek groepskamp 2028", "0467 01 33 43", "warre.knaepkens@telenet.be"], //[cite: 1]
       },
       {
         name: "Alicia",
         scoutsName: "Scoutsnaam invullen",
         image: aliciaImage,
-        details: ["Leidster Wolven", "0400 00 00 00", "alicia@gmail.com"],
+        details: ["Leidster Wolven", "Verhuur", "Tipsi team", "0468 07 06 58", "Alicia.van.aperen@gmail.com"], //[cite: 1]
       },
     ],
   },
@@ -200,31 +175,31 @@ export const leidingData = [
         name: "Kobe Van Looveren",
         scoutsName: "Wilskrachtige Saki",
         image: kobeVanLooverenImage,
-        details: ["Takleider Jonggivers", "Website verantwoordelijke", "0456 12 14 57", "kobevanlooveren2007@gmail.com"],
+        details: ["Takleider Jonggivers", "Site", "Verhuur", "0456 12 14 57", "kobevanlooveren2007@gmail.com"], //[cite: 1]
       },
       {
         name: "Alexine",
-        scoutsName: "Scoutsnaam invullen",
+        scoutsName: "Elegant Hert",
         image: alexineImage,
-        details: ["Leidster Jonggivers", "0400 00 00 00", "alexine@gmail.com"],
+        details: ["Leidster Jonggivers", "Tipsi team", "Bedanking vrijwilligers", "0471 01 03 77", "alexinedebacker@icloud.com"], //[cite: 1]
       },
       {
         name: "Louis Janssen",
         scoutsName: "Luchthartige Streepmuis",
         image: louisJanssenImage,
-        details: ["Bedanking vrijwilligers", "Leider Jonggivers", "0485 30 32 27", "louisjanssen@gmail.com"],
+        details: ["Leider Jonggivers", "Bar team", "Overgang", "0485 30 32 27", "louisjanssen@gmail.com"], //[cite: 1]
       },
       {
         name: "Siemon Renders",
         scoutsName: "Amicale Newfoundlander",
         image: siemonRendersImage,
-        details: ["Verantwoordelijke daguitstap", "Leider Jonggivers", "0493 96 87 83", "siemon.renders@gmail.com"],
+        details: ["Leider Jonggivers", "Overgang", "Daguitstap", "0493 96 87 83", "siemon.renders@gmail.com"], //[cite: 1]
       },
       {
         name: "Jasper Van Looveren",
         scoutsName: "Strijdlustige Arasari",
         image: jasperVanLooverenImage,
-        details: ["NVDJB", "Leider Jonggivers", "0487 22 21 14", "vanlooverenjasper@gmail.com"],
+        details: ["Leider Jonggivers", "Knutselkot", "NVDJB", "0487 22 21 14", "vanlooverenjasper@gmail.com"], //[cite: 1]
       },
     ],
   },
@@ -235,31 +210,31 @@ export const leidingData = [
         name: "Lieselot Vanhooydonck",
         scoutsName: "Hulpvaardige Spitsvogel",
         image: lieselotteVanhooydonckImage,
-        details: ["Takleidster Givers", "0468 24 38 36", "lieselot.vanhooydonck@gmail.com"],
+        details: ["Takleidster Givers", "Subsidieformulier", "Knutselkot", "Tipsi team", "0468 24 38 36", "lieselot.vanhooydonck@gmail.com"], //[cite: 1]
       },
       {
         name: "Margaux Nuyts",
         scoutsName: "Joviale Zwaluw",
         image: margauxNuytsImage,
-        details: ["Groepsleidster", "Verantwoordelijke Sociale Media", "Zorgpersoon", "Leidster Givers", "0471 36 53 14", "margaux.nuyts@gmail.com"],
+        details: ["Groepsleidster", "Sociale media", "Breughelavond", "Zorgpersoon", "Leidster Givers", "0471 36 53 14", "margaux.nuyts@gmail.com"], //[cite: 1]
       },
       {
         name: "Simon Braem",
         scoutsName: "Gedreven Hert",
-        image: null,
-        details: ["Milieu Verantwoordelijke", "Verantwoordelijke Knutselkot", "Leider Givers", "0493 33 81 20", "simon.braem05@gmail.com"],
+        image: simonBImage,
+        details: ["Leider Givers", "Knutselkot", "Milieu", "0493 33 81 20", "simon.braem05@gmail.com"], //[cite: 1]
       },
       {
         name: "Seppe Janssen",
         scoutsName: "Guitige Spinaap",
         image: seppeJanssenImage,
-        details: ["Inschrijvingen", "Jaarsponsering", "Leider Givers", "0477 86 74 02", "seppejan10@gmail.com"],
+        details: ["Leider Givers", "Inschrijvingen", "Cadeau oud-leiding", "0477 86 74 02", "seppejan10@gmail.com"], //[cite: 1]
       },
       {
         name: "Hannes Vanhooydonck",
         scoutsName: "Aimabele Fret",
         image: hannesVanhooydonckImage,
-        details: ["Leidingsmerchandise", "Leider Givers", "0468 23 27 67", "hannes.vanhooydonck@gmail.com"],
+        details: ["Leider Givers", "Bar team", "Tipsi team", "Leiding Merchandise", "0468 23 27 67", "hannes.vanhooydonck@gmail.com"], //[cite: 1]
       },
     ],
   },
@@ -270,19 +245,19 @@ export const leidingData = [
         name: "Sander Verheyden",
         scoutsName: "Leergierig Zeepaard",
         image: sanderVerheydenImage,
-        details: ["Takleider Jins", "Verantwoordelijke Container", "0468 56 82 79", "sander.verheyden@telenet.be"],
+        details: ["Takleider Jins", "Container", "0468 56 82 79", "sander.verheyden@telenet.be"], //[cite: 1]
       },
       {
         name: "Thomas Preud'homme",
         scoutsName: "Hartverwarmende Winterkoning",
         image: thomasPreudhommeImage,
-        details: ["Groepsleider", "Financiën", "Leider Jins", "0468 57 32 76", "thomaspreudhomme@outlook.com"],
+        details: ["Groepsleider", "Financiën", "Jaarsponsoring", "Leider Jins", "0468 57 32 76", "thomaspreudhomme@outlook.com"], //[cite: 1]
       },
       {
         name: "Robbe Knaepkens",
         scoutsName: "Guitige Kwikstaart",
         image: robbeKnaepkensImage,
-        details: ["Tipsi-team", "Sponsering kamp", "Leider Jins", "0468 45 49 54", "robbe.knaepkens1@telenet.be"],
+        details: ["Leider Jins", "Verhuur", "Tipsi team", "Sponsoring kamp", "0468 45 49 54", "robbe.knaepkens1@telenet.be"], //[cite: 1]
       },
       {
         name: "Maarten Vermeiren",
