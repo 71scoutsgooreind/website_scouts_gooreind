@@ -87,7 +87,7 @@ export const leidingData = [
       {
         name: "Matthis",
         scoutsName: "Montere Koi",
-        image: matthisImage,
+        image: null,
         details: ["Leider Kapoenen", "Verhuur", "Cadeau oud-leiding", "0492 52 18 47", "matthis.mennes@icloud.com"], //[cite: 1]
       },
       {
@@ -116,7 +116,7 @@ export const leidingData = [
       {
         name: "Gil",
         scoutsName: "Expressieve Lori",
-        image: gilImage,
+        image: null,
         details: ["Leider Welka's", "Milieu", "Plek groepskamp 2028", "0456 75 07 19", "Gil@ipower.eu"], //[cite: 1]
       },
       {
@@ -145,7 +145,7 @@ export const leidingData = [
       {
         name: "Dries",
         scoutsName: "Vredevolle Secretarisvogel",
-        image: driesImage,
+        image: null,
         details: ["Leider Wolven", "Financiën (opleiding)", "0472 11 20 76", "driescuypers@outlook.com"], //[cite: 1]
       },
       {
@@ -157,7 +157,7 @@ export const leidingData = [
       {
         name: "Warre",
         scoutsName: "Aimabele Poedel",
-        image: warreImage,
+        image: null,
         details: ["Leider Wolven", "Verhuur", "Plek groepskamp 2028", "0467 01 33 43", "warre.knaepkens@telenet.be"], //[cite: 1]
       },
       {
