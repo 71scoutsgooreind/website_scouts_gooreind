@@ -82,7 +82,7 @@ export const leidingData = [
         name: "Lore",
         scoutsName: "Harmonieuze Kea",
         image: loreImage,
-        style: { transform: "scale(1.25)", objectFit: "cover" },
+        style: { transform: "scale(5)", objectFit: "cover" },
         details: ["Leidster Kapoenen", "Tipsi team", "Bedanking vrijwilligers", "Zorgpersoon", "0468 28 21 00", "lorevlooveren@telenet.be"],
       },
       {
