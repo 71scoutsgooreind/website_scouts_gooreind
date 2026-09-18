@@ -28,6 +28,13 @@ import alexineImage from "./images/leiding/Alexine.avif";
 import kobeVBImage from "./images/leiding/KobeVB.avif";
 import simonBImage from "./images/leiding/SimonB.avif";
 
+// Stijl voor het inzoomen op het midden van de foto
+const zoomCenterStyle = {
+  transform: "scale(1.5)",
+  transformOrigin: "center center",
+  objectFit: "cover"
+};
+
 export const leidingData = [
   {
     title: "Groepsleiding",
@@ -82,7 +89,7 @@ export const leidingData = [
         name: "Lore",
         scoutsName: "Harmonieuze Kea",
         image: loreImage,
-        style: { transform: "scale(5)", objectFit: "cover" },
+        style: zoomCenterStyle,
         details: ["Leidster Kapoenen", "Tipsi team", "Bedanking vrijwilligers", "Zorgpersoon", "0468 28 21 00", "lorevlooveren@telenet.be"],
       },
       {
@@ -95,7 +102,7 @@ export const leidingData = [
         name: "Seppe M",
         scoutsName: "Betrouwbare Beermarter",
         image: seppeMImage,
-        style: { transform: "scale(1.25)", objectFit: "cover" },
+        style: zoomCenterStyle,
         details: ["Leider Kapoenen", "Bar opruim team", "NVDJB", "0471 01 01 07", "seppe.maes001@gmail.com"],
       },
     ],
@@ -113,7 +120,7 @@ export const leidingData = [
         name: "Kobe Van Brecht",
         scoutsName: "Gezellige Agame",
         image: kobeVBImage,
-        style: { transform: "scale(1.25)", objectFit: "cover" },
+        style: zoomCenterStyle,
         details: ["Leider Welka's", "Bar team", "Milieu", "0470 37 34 39", "kobevanbrecht@gmail.com"],
       },
       {
@@ -167,7 +174,7 @@ export const leidingData = [
         name: "Alicia",
         scoutsName: "Scoutsnaam invullen",
         image: aliciaImage,
-        style: { transform: "scale(1.25)", objectFit: "cover" },
+        style: zoomCenterStyle,
         details: ["Leidster Wolven", "Verhuur", "Tipsi team", "0468 07 06 58", "Alicia.van.aperen@gmail.com"],
       },
     ],
@@ -185,7 +192,7 @@ export const leidingData = [
         name: "Alexine",
         scoutsName: "Elegant Hert",
         image: alexineImage,
-        style: { transform: "scale(1.25)", objectFit: "cover" },
+        style: zoomCenterStyle,
         details: ["Leidster Jonggivers", "Tipsi team", "Bedanking vrijwilligers", "0471 01 03 77", "alexinedebacker@icloud.com"],
       },
       {
@@ -227,7 +234,7 @@ export const leidingData = [
         name: "Simon Braem",
         scoutsName: "Gedreven Hert",
         image: simonBImage,
-        style: { transform: "scale(1.25)", objectFit: "cover" },
+        style: zoomCenterStyle,
         details: ["Leider Givers", "Knutselkot", "Milieu", "0493 33 81 20", "simon.braem05@gmail.com"],
       },
       {
