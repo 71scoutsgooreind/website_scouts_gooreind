@@ -82,7 +82,7 @@ export const leidingData = [
         name: "Lore",
         scoutsName: "Harmonieuze Kea",
         image: loreImage,
-        imageClass: "zoomed-image",
+        style: { transform: "scale(1.25)", objectFit: "cover" },
         details: ["Leidster Kapoenen", "Tipsi team", "Bedanking vrijwilligers", "Zorgpersoon", "0468 28 21 00", "lorevlooveren@telenet.be"],[cite: 1]
       },
       {
@@ -95,7 +95,7 @@ export const leidingData = [
         name: "Seppe M",
         scoutsName: "Betrouwbare Beermarter",
         image: seppeMImage,
-        imageClass: "zoomed-image",
+        style: { transform: "scale(1.25)", objectFit: "cover" },
         details: ["Leider Kapoenen", "Bar opruim team", "NVDJB", "0471 01 01 07", "seppe.maes001@gmail.com"],[cite: 1]
       },
     ],
@@ -113,7 +113,7 @@ export const leidingData = [
         name: "Kobe Van Brecht",
         scoutsName: "Gezellige Agame",
         image: kobeVBImage,
-        imageClass: "zoomed-image",
+        style: { transform: "scale(1.25)", objectFit: "cover" },
         details: ["Leider Welka's", "Bar team", "Milieu", "0470 37 34 39", "kobevanbrecht@gmail.com"],[cite: 1]
       },
       {
@@ -167,7 +167,7 @@ export const leidingData = [
         name: "Alicia",
         scoutsName: "Scoutsnaam invullen",
         image: aliciaImage,
-        imageClass: "zoomed-image",
+        style: { transform: "scale(1.25)", objectFit: "cover" },
         details: ["Leidster Wolven", "Verhuur", "Tipsi team", "0468 07 06 58", "Alicia.van.aperen@gmail.com"],[cite: 1]
       },
     ],
@@ -185,7 +185,7 @@ export const leidingData = [
         name: "Alexine",
         scoutsName: "Elegant Hert",
         image: alexineImage,
-        imageClass: "zoomed-image",
+        style: { transform: "scale(1.25)", objectFit: "cover" },
         details: ["Leidster Jonggivers", "Tipsi team", "Bedanking vrijwilligers", "0471 01 03 77", "alexinedebacker@icloud.com"],[cite: 1]
       },
       {
@@ -227,7 +227,7 @@ export const leidingData = [
         name: "Simon Braem",
         scoutsName: "Gedreven Hert",
         image: simonBImage,
-        imageClass: "zoomed-image",
+        style: { transform: "scale(1.25)", objectFit: "cover" },
         details: ["Leider Givers", "Knutselkot", "Milieu", "0493 33 81 20", "simon.braem05@gmail.com"],[cite: 1]
       },
       {
