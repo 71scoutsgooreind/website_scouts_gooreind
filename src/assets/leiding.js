@@ -86,20 +86,20 @@ export const leidingData = [
         details: ["Leider Kapoenen", "Merchandise", "groepskamp 2028", "0472 82 47 22", "thomascuypers@outlook.com"],
       },
       {
-        name: "Lore",
+        name: "Lore Van Looveren",
         scoutsName: "Harmonieuze Kea",
         image: loreImage,
         style: zoomCenterStyle,
         details: ["Leidster Kapoenen", "Tipsi team", "Zorgpersoon", "0468 28 21 00", "lorevlooveren@telenet.be"],
       },
       {
-        name: "Matthis",
+        name: "Matthis Mennes",
         scoutsName: "Montere Koi",
         image: null,
         details: ["Leider Kapoenen", "Verhuur", "0492 52 18 47", "matthis.mennes@icloud.com"],
       },
       {
-        name: "Seppe M",
+        name: "Seppe Maes",
         scoutsName: "Betrouwbare Beermarter",
         image: seppeMImage,
         style: zoomCenterStyle,
@@ -124,7 +124,7 @@ export const leidingData = [
         details: ["Leider Welka's", "Bar team", "Milieu", "0470 37 34 39", "kobevanbrecht@gmail.com"],
       },
       {
-        name: "Gil",
+        name: "Gil Liénard",
         scoutsName: "Expressieve Lori",
         image: null,
         details: ["Leider Welka's", "Milieu", "groepskamp 2028", "0456 75 07 19", "Gil@ipower.eu"],
@@ -153,7 +153,7 @@ export const leidingData = [
         details: ["Takleider Wolven", "Container", "0467 01 78 67", "kobefrancken@telenet.be"],
       },
       {
-        name: "Dries",
+        name: "Dries Cuypers",
         scoutsName: "Vredevolle Secretarisvogel",
         image: null,
         details: ["Leider Wolven", "Financiën (opleiding)", "0472 11 20 76", "driescuypers@outlook.com"],
@@ -165,13 +165,13 @@ export const leidingData = [
         details: ["Groepsleider", "Leider Wolven", "Verhuur", "0471 49 48 44", "vandenberghgijs1@gmail.com"],
       },
       {
-        name: "Warre",
+        name: "Warre Knaepkens",
         scoutsName: "Aimabele Poedel",
         image: null,
         details: ["Leider Wolven", "Verhuur", "groepskamp 2028", "0467 01 33 43", "warre.knaepkens@telenet.be"],
       },
       {
-        name: "Alicia",
+        name: "Alicia Van Aperen",
         scoutsName: "goedlachse steenbok",
         image: aliciaImage,
         style: zoomCenterStyle,
@@ -189,7 +189,7 @@ export const leidingData = [
         details: ["Takleider Jonggivers", "website", "Verhuur", "0456 12 14 57", "kobevanlooveren2007@gmail.com"],
       },
       {
-        name: "Alexine",
+        name: "Alexine De Backer",
         scoutsName: "Elegant Hert",
         image: alexineImage,
         style: zoomCenterStyle,
