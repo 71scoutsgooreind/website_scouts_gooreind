@@ -55,31 +55,45 @@ export default function HomePage() {
             <ul className="space-y-3 text-gray-700 flex-grow">
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Jincafé</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">30 oktober</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center">
+                  30 oktober
+                </span>
               </li>
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Breugelavond</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">7 november</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center">
+                  7 november
+                </span>
               </li>
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Jincafé</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">27 februari</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center">
+                  27 februari
+                </span>
               </li>
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Paaseierenverkoop</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">13 maart</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center">
+                  13 maart
+                </span>
               </li>
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Tipsi</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">20 maart</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center">
+                  20 maart
+                </span>
               </li>
               <li className="flex justify-between items-center bg-green-100 px-4 py-3 min-h-[52px] rounded-md border border-green-300">
                 <span className="font-bold text-green-900">Klein kamp</span>
-                <span className="bg-green-700 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">3 – 10 juli</span>
+                <span className="bg-green-700 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center">
+                  3 – 10 juli
+                </span>
               </li>
               <li className="flex justify-between items-center bg-green-100 px-4 py-3 min-h-[52px] rounded-md border border-green-300">
                 <span className="font-bold text-green-900">Groot kamp</span>
-                <span className="bg-green-700 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">16 – 26 juli</span>
+                <span className="bg-green-700 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center">
+                  16 – 26 juli
+                </span>
               </li>
             </ul>
           </div>
@@ -92,27 +106,39 @@ export default function HomePage() {
             <ul className="space-y-3 text-gray-700 flex-grow">
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Kapoenen weekend</span>
-                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">12 – 14 maart</span>
+                <span className="bg-gray-100 text-gray-700 text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center border border-gray-200">
+                  12 – 14 maart
+                </span>
               </li>
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Welka weekend</span>
-                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">26 – 28 februari</span>
+                <span className="bg-gray-100 text-gray-700 text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center border border-gray-200">
+                  26 – 28 februari
+                </span>
               </li>
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Wolven weekend</span>
-                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">5 - 7 maart</span>
+                <span className="bg-gray-100 text-gray-700 text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center border border-gray-200">
+                  5 - 7 maart
+                </span>
               </li>
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Jonggiver weekend</span>
-                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">26 – 28 februari</span>
+                <span className="bg-gray-100 text-gray-700 text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center border border-gray-200">
+                  26 – 28 februari
+                </span>
               </li>
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Giver weekend</span>
-                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">5 – 7 maart</span>
+                <span className="bg-gray-100 text-gray-700 text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center border border-gray-200">
+                  5 – 7 maart
+                </span>
               </li>
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Jins weekend</span>
-                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">5 – 7 maart</span>
+                <span className="bg-gray-100 text-gray-700 text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center border border-gray-200">
+                  5 – 7 maart
+                </span>
               </li>
             </ul>
           </div>
