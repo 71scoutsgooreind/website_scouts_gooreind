@@ -60,6 +60,24 @@ export const leidingData = [
     ],
   },
   {
+    title: "Zorgpersonen",
+    members: [
+      {
+        name: "Margaux Nuyts",
+        scoutsName: "Joviale Zwaluw",
+        image: margauxNuytsImage,
+        details: ["Groepsleidster", "Sociale media", "Breughelavond", "Zorgpersoon", "Leidster Givers", "0471 36 53 14", "margaux.nuyts@gmail.com"],
+      },
+      {
+        name: "Lore Van Looveren",
+        scoutsName: "Harmonieuze Kea",
+        image: loreImage,
+        style: zoomCenterStyle,
+        details: ["Leidster Kapoenen", "Tipsi team", "Zorgpersoon", "0468 28 21 00", "lorevlooveren@telenet.be"],
+      },
+    ],
+  },
+  {
     title: "Inschrijvingen",
     members: [
       {
