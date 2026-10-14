@@ -54,13 +54,14 @@ export default function HomePage() {
             </h4>
             <ul className="space-y-3 text-gray-700">
               <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+                <span className="font-semibold text-green-900">Jincafé</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium">30 oktober</span>
+              </li>
+              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
                 <span className="font-semibold text-green-900">Breugelavond</span>
                 <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium">7 november</span>
               </li>
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
-                <span className="font-semibold text-green-900">Jincafé</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium">31 oktober</span>
-              </li>
+         
               <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
                 <span className="font-semibold text-green-900">Jincafé</span>
                 <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium">27 februari</span>
