@@ -46,74 +46,73 @@ export default function HomePage() {
           Komende Evenementen & Datums
         </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto items-stretch">
           {/* Kalender / Activiteiten */}
-          <div className="bg-white rounded-lg p-6 shadow-md border border-green-200">
+          <div className="bg-white rounded-lg p-6 shadow-md border border-green-200 flex flex-col">
             <h4 className="text-xl font-bold text-green-800 mb-4 border-b pb-2">
               📅 Algemene Evenementen & Kampen
             </h4>
-            <ul className="space-y-3 text-gray-700">
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+            <ul className="space-y-3 text-gray-700 flex-grow">
+              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Jincafé</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium">30 oktober</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">30 oktober</span>
               </li>
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Breugelavond</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium">7 november</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">7 november</span>
               </li>
-         
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Jincafé</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium">27 februari</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">27 februari</span>
               </li>
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Paaseierenverkoop</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium">13 maart</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">13 maart</span>
               </li>
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Tipsi</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium">20 maart</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">20 maart</span>
               </li>
-              <li className="flex justify-between items-center bg-green-100 p-3 rounded-md border border-green-300">
+              <li className="flex justify-between items-center bg-green-100 px-4 py-3 min-h-[52px] rounded-md border border-green-300">
                 <span className="font-bold text-green-900">Klein kamp</span>
-                <span className="bg-green-700 text-white text-sm px-3 py-1 rounded-full font-medium">3 – 10 juli</span>
+                <span className="bg-green-700 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">3 – 10 juli</span>
               </li>
-              <li className="flex justify-between items-center bg-green-100 p-3 rounded-md border border-green-300">
+              <li className="flex justify-between items-center bg-green-100 px-4 py-3 min-h-[52px] rounded-md border border-green-300">
                 <span className="font-bold text-green-900">Groot kamp</span>
-                <span className="bg-green-700 text-white text-sm px-3 py-1 rounded-full font-medium">16 – 26 juli</span>
+                <span className="bg-green-700 text-white text-sm px-3 py-1 rounded-full font-medium whitespace-nowrap">16 – 26 juli</span>
               </li>
             </ul>
           </div>
 
           {/* Takkenweekenden (van jong naar oud) */}
-          <div className="bg-white rounded-lg p-6 shadow-md border border-green-200">
+          <div className="bg-white rounded-lg p-6 shadow-md border border-green-200 flex flex-col">
             <h4 className="text-xl font-bold text-green-800 mb-4 border-b pb-2">
               ⛺ Takkenweekenden
             </h4>
-            <ul className="space-y-3 text-gray-700">
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+            <ul className="space-y-3 text-gray-700 flex-grow">
+              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Kapoenen weekend</span>
-                <span className="text-sm font-medium text-gray-600">12 – 14 maart</span>
+                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">12 – 14 maart</span>
               </li>
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Welka weekend</span>
-                <span className="text-sm font-medium text-gray-600">26 – 28 februari</span>
+                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">26 – 28 februari</span>
               </li>
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Wolven weekend</span>
-                <span className="text-sm font-medium text-gray-600">5 -7 maart</span>
+                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">5 - 7 maart</span>
               </li>
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Jonggiver weekend</span>
-                <span className="text-sm font-medium text-gray-600">26 – 28 februari</span>
+                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">26 – 28 februari</span>
               </li>
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Giver weekend</span>
-                <span className="text-sm font-medium text-gray-600">5 – 7 maart</span>
+                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">5 – 7 maart</span>
               </li>
-              <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
+              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Jins weekend</span>
-                <span className="text-sm font-medium text-gray-600">5 – 7 maart</span>
+                <span className="text-sm font-medium text-gray-600 whitespace-nowrap">5 – 7 maart</span>
               </li>
             </ul>
           </div>
