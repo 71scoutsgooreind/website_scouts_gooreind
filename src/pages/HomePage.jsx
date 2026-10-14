@@ -100,7 +100,7 @@ export default function HomePage() {
               </li>
               <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
                 <span className="font-semibold text-green-900">Wolven weekend</span>
-                <span className="text-sm font-medium text-gray-600">-</span>
+                <span className="text-sm font-medium text-gray-600">5 -7 maart</span>
               </li>
               <li className="flex justify-between items-center bg-green-50 p-3 rounded-md">
                 <span className="font-semibold text-green-900">Jonggiver weekend</span>
