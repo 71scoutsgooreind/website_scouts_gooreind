@@ -83,6 +83,12 @@ export default function HomePage() {
                   20 maart
                 </span>
               </li>
+               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
+                <span className="font-semibold text-green-900">Zomerbar jins</span>
+                <span className="bg-green-600 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center">
+                  8 mei
+                </span>
+              </li>
               <li className="flex justify-between items-center bg-green-100 px-4 py-3 min-h-[52px] rounded-md border border-green-300">
                 <span className="font-bold text-green-900">Klein kamp</span>
                 <span className="bg-green-700 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center">
