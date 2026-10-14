@@ -256,6 +256,5 @@ export default function HomePage() {
     </>
   );
 }
-  );
-}
+
 
