@@ -46,7 +46,14 @@ export default function GroepenPage() {
                   />
                 </div>
                 <div className="text-gray-700">
-                  <h2 className="text-3xl font-bold text-green-900 mb-2">{group.title}</h2>
+                  {/* HIER ZIJN DE ATTRIBUTEN TOEGEVOEGD */}
+                  <h2 
+                    translate="no" 
+                    className="notranslate text-3xl font-bold text-green-900 mb-2"
+                  >
+                    {group.title}
+                  </h2>
+                  
                   <p className="text-md font-semibold text-green-700 mb-4">{group.age}</p>
                   <div className="space-y-4">
                     {group.description.map((paragraph, pIndex) => (
