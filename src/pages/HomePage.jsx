@@ -68,13 +68,7 @@ export default function HomePage() {
               📅 Algemene Evenementen & Kampen
             </h4>
             <ul className="space-y-3 text-gray-700 flex-grow">
-              <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
-                <span className="font-semibold text-green-900">Jincafé</span>
-                <span className="bg-green-600 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center">
-                  30 oktober
-                </span>
-              </li>
-              
+             
               {/* Breugelavond zonder inschrijflink */}
               <li className="flex flex-wrap sm:flex-nowrap justify-between items-center bg-amber-50 border border-amber-300 px-4 py-3 min-h-[52px] rounded-md gap-2">
                 <div className="flex items-center gap-2">
