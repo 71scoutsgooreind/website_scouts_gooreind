@@ -37,37 +37,19 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Prominente Inschrijfbanner Breugelavond */}
+      {/* Prominente Banner Breugelavond */}
       <section className="my-8 rounded-xl bg-amber-500 text-white p-6 md:p-8 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6 border-4 border-amber-600">
         <div className="space-y-2 text-center md:text-left">
           <span className="bg-amber-700 text-amber-100 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
-            Inschrijvingen Geopend
+            Inschrijvingen Gesloten
           </span>
-          <h2 className="text-3xl font-black text-amber-95">
+          <h2 className="text-3xl font-black text-amber-950">
             🍲 Breugelavond - 7 november
           </h2>
           <p className="text-amber-50 max-w-xl text-base md:text-lg">
-            Schuif gezellig aan op onze jaarlijkse Breugelavond! Reserveer snel je plek via het online inschrijfformulier.
+            De online inschrijvingen zijn inmiddels afgesloten. Geen zorgen: ter plekke zijn er nog menu's verkrijgbaar! Kom gerust langs en schuif gezellig aan.
           </p>
         </div>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfcmBCT-Ot8JTnZHWqIDJqN8c_mX6I8Bveu_m6nEwka_VoI0g/viewform?usp=send_form"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="whitespace-nowrap rounded-full bg-white px-8 py-4 text-lg font-extrabold text-amber-900 shadow-lg hover:bg-amber-100 hover:scale-105 transition transform active:scale-95 flex items-center gap-2"
-        >
-          <span>Schrijf je nu in</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2.5}
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-          </svg>
-        </a>
       </section>
 
       {/* Komende Evenementen Sectie */}
@@ -93,26 +75,18 @@ export default function HomePage() {
                 </span>
               </li>
               
-              {/* Breugelavond met directe inschrijflink in de lijst */}
+              {/* Breugelavond zonder inschrijflink */}
               <li className="flex flex-wrap sm:flex-nowrap justify-between items-center bg-amber-50 border border-amber-300 px-4 py-3 min-h-[52px] rounded-md gap-2">
                 <div className="flex items-center gap-2">
                   <span className="font-bold text-amber-950">Breugelavond</span>
                   <span className="bg-amber-200 text-amber-900 text-xs px-2 py-0.5 rounded font-semibold">
-                    Inschrijven
+                    Menu's ter plekke
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="bg-amber-600 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[100px] text-center">
                     7 november
                   </span>
-                  <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfcmBCT-Ot8JTnZHWqIDJqN8c_mX6I8Bveu_m6nEwka_VoI0g/viewform?usp=send_form"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-green-700 hover:bg-green-800 text-white text-xs font-bold px-3 py-2 rounded-md transition shadow"
-                  >
-                    Schrijf in
-                  </a>
                 </div>
               </li>
 
