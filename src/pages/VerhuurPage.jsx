@@ -53,10 +53,25 @@ export default function VerhuurPage() {
         }
       `}</style>
       <div className="container mx-auto px-4 py-12">
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h1 className="text-4xl font-extrabold text-green-50 tracking-tight sm:text-5xl md:text-6xl">
             Verhuur
           </h1>
+        </div>
+
+        {/* Prominente waarschuwingsbanner direct bovenaan de pagina */}
+        <div className="mb-10 rounded-xl bg-amber-500 text-white p-6 shadow-xl flex items-start gap-4 border-4 border-amber-600">
+          <div className="text-3xl md:text-4xl mt-0.5">
+            <MdWarning />
+          </div>
+          <div className="space-y-1">
+            <h2 className="font-extrabold text-xl md:text-2xl text-amber-950">
+              Belangrijk: Controleer eerst zelf onze kalender!
+            </h2>
+            <p className="text-amber-50 text-base md:text-lg leading-relaxed">
+              Gelieve <strong>altijd eerst zelf de verhuurkalender (onderaan deze pagina) te raadplegen</strong> om te zien of uw gewenste datum nog vrij is alvorens een mail te sturen. Zo vermijden we onnodige vragen!
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
@@ -110,19 +125,6 @@ export default function VerhuurPage() {
         </Section>
 
         <Section title={calendar.title}>
-          {/* Prominente waarschuwing dat men eerst zelf de kalender moet checken */}
-          <div className="mb-6 rounded-xl bg-amber-500 text-white p-5 shadow-md flex items-start gap-4 border-2 border-amber-600">
-            <div className="text-3xl mt-0.5">
-              <MdWarning />
-            </div>
-            <div className="space-y-1">
-              <h4 className="font-bold text-lg text-amber-950">Belangrijk: Controleer eerst zelf de kalender!</h4>
-              <p className="text-amber-50 text-sm md:text-base leading-relaxed">
-                Gelieve <strong>altijd eerst zelf onderstaande kalender te raadplegen</strong> om te zien of uw gewenste periode nog vrij is, alvorens contact op te nemen voor een verhuuraanvraag. Zo vermijden we onnodige mails!
-              </p>
-            </div>
-          </div>
-
           {/* Mobile: Agenda view */}
           <div className="md:hidden relative h-0 pb-[150%]">
             <iframe
