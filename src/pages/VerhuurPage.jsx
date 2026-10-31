@@ -1,6 +1,6 @@
 import React from "react";
 import { verhuurData } from "../assets/verhuur";
-import { MdLocationOn, MdEmail, MdEuro } from "react-icons/md";
+import { MdLocationOn, MdEmail, MdEuro, MdWarning } from "react-icons/md";
 
 const Section = ({ title, children, className = "" }) => (
   <section
@@ -110,6 +110,19 @@ export default function VerhuurPage() {
         </Section>
 
         <Section title={calendar.title}>
+          {/* Prominente waarschuwing dat men eerst zelf de kalender moet checken */}
+          <div className="mb-6 rounded-xl bg-amber-500 text-white p-5 shadow-md flex items-start gap-4 border-2 border-amber-600">
+            <div className="text-3xl mt-0.5">
+              <MdWarning />
+            </div>
+            <div className="space-y-1">
+              <h4 className="font-bold text-lg text-amber-950">Belangrijk: Controleer eerst zelf de kalender!</h4>
+              <p className="text-amber-50 text-sm md:text-base leading-relaxed">
+                Gelieve <strong>altijd eerst zelf onderstaande kalender te raadplegen</strong> om te zien of uw gewenste periode nog vrij is, alvorens contact op te nemen voor een verhuuraanvraag. Zo vermijden we onnodige mails!
+              </p>
+            </div>
+          </div>
+
           {/* Mobile: Agenda view */}
           <div className="md:hidden relative h-0 pb-[150%]">
             <iframe
