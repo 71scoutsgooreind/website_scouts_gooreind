@@ -3,28 +3,28 @@ import trooperImage from "../assets/images/algemeen/Trooper.avif";
 import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
 
 const sponsors = [
-  { naam: "Carrefour market Gooreind", subtitel: "Supermarkt" },
-  { naam: "Fitness Martinique", subtitel: "Fitness & gezondheid" },
-  { naam: "Gooreind Pharma", subtitel: "Apotheek" },
-  { naam: "HLB Belgium", subtitel: "Accountancy - Advisory - Audit" },
-  { naam: "Transport Van Aperen", subtitel: "Swiss perfection & Belgian flexibility" },
-  { naam: "Studio Vero", subtitel: "Creatieve studio" },
-  { naam: "Fietsen Rombouts", subtitel: "Fietsen" },
-  { naam: "Kochsegoed", subtitel: "Wandel-fiets-speel-sport-lunch-café" },
-  { naam: "Kolibrie Creaties", subtitel: "Creaties" },
-  { naam: "KOBRE", subtitel: "Algemene elektriciteitswerken" },
-  { naam: "VVH & P", subtitel: "Sponsor" },
-  { naam: "FiduFin", subtitel: "Accountants & belastingconsulenten" },
-  { naam: "Apotheek Dorien Olyslager", subtitel: "Brasschaat - Driehoek - Maria Ter Heide - Gooreind" },
-  { naam: "Kapsalon Jaras", subtitel: "Voor het hele gezin & depot droogkuis-witwas" },
-  { naam: "Bouwadvies PV", subtitel: "Ventilatieverslaggever & keuringen" },
-  { naam: "Il Divino di Milano", subtitel: "Horeca" },
-  { naam: "Café De Klok", subtitel: "Café" },
-  { naam: "Wouters", subtitel: "Brood & patisserie" },
-  { naam: "Van Oevelen", subtitel: "Drankenhandel" },
-  { naam: "Extreme Events", subtitel: "Events" },
-  { naam: "Klokkenhof", subtitel: "Feestzaal & restaurant" },
-  { naam: "Clinic Esthetic", subtitel: "Esthetiek" },
+  { naam: "Carrefour market Gooreind", activiteit: "Supermarkt" },
+  { naam: "Fitness Martinique", activiteit: "Fitness" },
+  { naam: "Gooreind Pharma", activiteit: "Apotheek" },
+  { naam: "HLB Belgium", activiteit: "Accountancy" },
+  { naam: "Transport Van Aperen", activiteit: "Transport" },
+  { naam: "Studio Vero", activiteit: "Grafische studio" },
+  { naam: "Fietsen Rombouts", activiteit: "Fietsenmaker" },
+  { naam: "Kochsegoed", activiteit: "Lunchcafé" },
+  { naam: "Kolibrie Creaties", activiteit: "Creatief bureau" },
+  { naam: "KOBRE", activiteit: "Elektriciteitswerken" },
+  { naam: "VVH & P", activiteit: "Accountancy" },
+  { naam: "FiduFin", activiteit: "Boekhouding & belastingadvies" },
+  { naam: "Apotheek Dorien Olyslager", activiteit: "Apotheek" },
+  { naam: "Kapsalon Jaras", activiteit: "Kapsalon" },
+  { naam: "Bouwadvies PV", activiteit: "Bouwadvies & keuringen" },
+  { naam: "Il Divino di Milano", activiteit: "Restaurant" },
+  { naam: "Café De Klok", activiteit: "Café" },
+  { naam: "Wouters", activiteit: "Bakkerij" },
+  { naam: "Van Oevelen", activiteit: "Drankenhandel" },
+  { naam: "Extreme Events", activiteit: "Evenementen" },
+  { naam: "Klokkenhof", activiteit: "Hotel & restaurant" },
+  { naam: "Clinic Esthetic", activiteit: "Schoonheidssalon" },
 ];
 
 export default function HomePage() {
@@ -324,11 +324,9 @@ export default function HomePage() {
               <span className="font-bold text-green-900 text-base leading-snug">
                 {sponsor.naam}
               </span>
-              {sponsor.subtitel && (
-                <span className="mt-1 text-xs text-gray-500 leading-tight">
-                  {sponsor.subtitel}
-                </span>
-              )}
+              <span className="mt-1 text-xs text-gray-500 font-medium leading-tight">
+                {sponsor.activiteit}
+              </span>
             </div>
           ))}
         </div>
@@ -336,3 +334,4 @@ export default function HomePage() {
     </>
   );
 }
+
