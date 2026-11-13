@@ -37,21 +37,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Prominente Banner Breugelavond */}
-      <section className="my-8 rounded-xl bg-amber-500 text-white p-6 md:p-8 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6 border-4 border-amber-600">
-        <div className="space-y-2 text-center md:text-left">
-          <span className="bg-amber-700 text-amber-100 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
-            Inschrijvingen Gesloten
-          </span>
-          <h2 className="text-3xl font-black text-amber-950">
-            🍲 Breugelavond - 7 november
-          </h2>
-          <p className="text-amber-50 max-w-xl text-base md:text-lg">
-            De online inschrijvingen zijn inmiddels afgesloten. Geen zorgen: ter plekke zijn er nog menu's verkrijgbaar! Kom gerust langs en schuif gezellig aan.
-          </p>
-        </div>
-      </section>
-
       {/* Komende Evenementen Sectie */}
       <section
         id="evenementen"
@@ -68,22 +53,6 @@ export default function HomePage() {
               📅 Algemene Evenementen & Kampen
             </h4>
             <ul className="space-y-3 text-gray-700 flex-grow">
-             
-              {/* Breugelavond zonder inschrijflink */}
-              <li className="flex flex-wrap sm:flex-nowrap justify-between items-center bg-amber-50 border border-amber-300 px-4 py-3 min-h-[52px] rounded-md gap-2">
-                <div className="flex items-center gap-2">
-                  <span className="font-bold text-amber-950">Breugelavond</span>
-                  <span className="bg-amber-200 text-amber-900 text-xs px-2 py-0.5 rounded font-semibold">
-                    Menu's ter plekke
-                  </span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="bg-amber-600 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[100px] text-center">
-                    7 november
-                  </span>
-                </div>
-              </li>
-
               <li className="flex justify-between items-center bg-green-50 px-4 py-3 min-h-[52px] rounded-md">
                 <span className="font-semibold text-green-900">Jincafé</span>
                 <span className="bg-green-600 text-white text-sm px-3 py-1.5 rounded-full font-medium whitespace-nowrap min-w-[120px] text-center">
