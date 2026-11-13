@@ -2,6 +2,31 @@ import React from "react";
 import trooperImage from "../assets/images/algemeen/Trooper.avif";
 import heroImage from "../assets/images/algemeen/GROEPSFOTO.jpeg";
 
+const sponsors = [
+  { naam: "Carrefour market Gooreind", subtitel: "Supermarkt" },
+  { naam: "Fitness Martinique", subtitel: "Fitness & gezondheid" },
+  { naam: "Gooreind Pharma", subtitel: "Apotheek" },
+  { naam: "HLB Belgium", subtitel: "Accountancy - Advisory - Audit" },
+  { naam: "Transport Van Aperen", subtitel: "Swiss perfection & Belgian flexibility" },
+  { naam: "Studio Vero", subtitel: "Creatieve studio" },
+  { naam: "Fietsen Rombouts", subtitel: "Fietsen" },
+  { naam: "Kochsegoed", subtitel: "Wandel-fiets-speel-sport-lunch-café" },
+  { naam: "Kolibrie Creaties", subtitel: "Creaties" },
+  { naam: "KOBRE", subtitel: "Algemene elektriciteitswerken" },
+  { naam: "VVH & P", subtitel: "Sponsor" },
+  { naam: "FiduFin", subtitel: "Accountants & belastingconsulenten" },
+  { naam: "Apotheek Dorien Olyslager", subtitel: "Brasschaat - Driehoek - Maria Ter Heide - Gooreind" },
+  { naam: "Kapsalon Jaras", subtitel: "Voor het hele gezin & depot droogkuis-witwas" },
+  { naam: "Bouwadvies PV", subtitel: "Ventilatieverslaggever & keuringen" },
+  { naam: "Il Divino di Milano", subtitel: "Horeca" },
+  { naam: "Café De Klok", subtitel: "Café" },
+  { naam: "Wouters", subtitel: "Brood & patisserie" },
+  { naam: "Van Oevelen", subtitel: "Drankenhandel" },
+  { naam: "Extreme Events", subtitel: "Events" },
+  { naam: "Klokkenhof", subtitel: "Feestzaal & restaurant" },
+  { naam: "Clinic Esthetic", subtitel: "Esthetiek" },
+];
+
 export default function HomePage() {
   return (
     <>
@@ -275,6 +300,37 @@ export default function HomePage() {
             </svg>
             Ga naar Groepsadministratie
           </a>
+        </div>
+      </section>
+
+      {/* Sponsors Sectie */}
+      <section
+        id="sponsors"
+        className="my-12 rounded-xl bg-green-50 p-8 shadow-lg"
+      >
+        <h3 className="mb-3 text-center text-3xl font-bold text-green-900">
+          Onze Sponsors
+        </h3>
+        <p className="mx-auto mb-8 max-w-2xl text-center text-gray-600">
+          Hartelijk dank aan alle lokale handelaars en bedrijven die Scouts Gooreind steunen!
+        </p>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 max-w-6xl mx-auto">
+          {sponsors.map((sponsor) => (
+            <div
+              key={sponsor.naam}
+              className="flex flex-col items-center justify-center rounded-lg bg-white p-4 text-center shadow-sm border border-green-200 transition hover:shadow-md hover:border-green-400 min-h-[100px]"
+            >
+              <span className="font-bold text-green-900 text-base leading-snug">
+                {sponsor.naam}
+              </span>
+              {sponsor.subtitel && (
+                <span className="mt-1 text-xs text-gray-500 leading-tight">
+                  {sponsor.subtitel}
+                </span>
+              )}
+            </div>
+          ))}
         </div>
       </section>
     </>
